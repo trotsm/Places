@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Routes">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="1. Маршрут «Пам'ятники середмістя»"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/textPrimary"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_weight="2"
+            android:text="\nХочете за короткий час побачити якомога більше пам'ятників Коломиї? Тоді цей маршрут для вас!" />
+
+        <TextView
+            android:textColor="@color/textPrimary"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:text="\nВи побачите: \n
+- Пам'ятний знак на місці зруйнованого пам'ятника Шевченку\n
+- Пам'ятник Тарасові Шевченку\n
+- Пам'ятник Мирославу Ірчану\n
+- Пам'ятник друкарству Коломиї\n
+- Парк скульптур 7 чудесних писанок\n
+- Пам'ятник Іванові Франку\n
+- Пам'ятник Борцям за незалежну Україну\n
+- Меморіал воїнам Радянської армії\n
+- Пам'ятник  Михайлу Грушевському\n" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/buttontwo"
+            android:onClick="Memorials"
+            android:text="@string/btn_routes"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn"
+            android:text="2. Маршрут «Релігійні споруди Коломиї»"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/textPrimary"
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_weight="2"
+            android:text="\nПобачити основні релігійні споруди міста можна обравши запропонований маршрут!" />
+
+        <TextView
+            android:textColor="@color/textPrimary"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView6"
+            android:text="\nВи побачите:\n
+- Церква Благовіщення Пречистої Діви Марії\n
+- Собор святого Архистратига Михаїла\n
+- Синагога\n
+- Kатедральний собор Преображення Христового\n
+- Костел святого Ігнатія Лойоли\n
+- Церква святого священомученика Йосафата\n
+- Кафедральний собор Преображення Господнього УПЦ КП\n" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/buttontwo"
+            android:onClick="Churches"
+            android:text="@string/btn_routes"
+            android:textColor="@color/colorPrimaryDark"  />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn1"
+            android:text="3. Маршрут «Музеї Коломиї»"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/textPrimary"
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView7"
+            android:text="\nВи відвідаєте три музеї міста:\n
+- Національний музей народного мистецтва Гуцульщини та Покуття імені Й. Кобринського\n
+- Музей писанкового розпису\n
+- Музей історії міста Коломиї\n" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/buttontwo"
+            android:onClick="Museums"
+            android:text="@string/btn_routes"
+            android:textColor="@color/colorPrimaryDark"  />
+
+    </RelativeLayout>
+
+</ScrollView>

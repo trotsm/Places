@@ -1,0 +1,259 @@
+<resources>
+    <string name="app_name">Kolomyia: guide and routes</string>
+
+    <string name="action_about">About app</string>
+    <string name="places_list">List of locations</string>
+    <string name="rate_app">Rate app</string>
+
+    <string name="popular">Popular</string>
+    <string name="monuments">Monuments</string>
+    <string name="architecture">Architecture</string>
+    <string name="religion">Religion</string>
+    <string name="museums">Museums</string>
+
+    <string name="routes">Routes</string>
+    <string name="routes_btn">Routes</string>
+    <string name="btn_routes">Route</string>
+    <string name="locatios_btn">Locations</string>
+    <string name="send_messege">Message</string>
+
+    <string name="vodograi_liubovi">The Fountain «Fountain of Love»</string>
+    <string name="stud_skver">Student Garden square</string>
+    <string name="sh_ozero">Shevchenko"'"s lake</string>
+    <string name="kliashtor">Spring «Klyashtor»</string>
+    <string name="miske_ozero">Town lake</string>
+    <string name="muz_pys">Pysanka Museum</string>
+    <string name="fontan">The Fountain near the market</string>
+    <string name="ratusha">Town Hall</string>
+
+    <string name="park_skulptur">Park of sculptures «7 wonderful Easter eggs»</string>
+    <string name="pam_frank">Ivan Franko Monument</string>
+    <string name="pam_band">Stepan Bandera Monument</string>
+    <string name="pam_sh_1">Taras Shevchenko Monument (downtown)</string>
+    <string name="pam_grush">Mikhailo Hrushevsky Monument</string>
+    <string name="pam_irch">Myroslav Irchan Monument</string>
+    <string name="pam_tryl">Kyryl Trylovskyi Monument</string>
+    <string name="pam_sh_2">Taras Shevchenko Monument (park)</string>
+    <string name="pam_borciam">To the fighters for Independent Ukraine Monument</string>
+    <string name="pam_druk">To printing of Kolomyia Monument</string>
+    <string name="pam_mickev">Adam Mickiewicz Monument</string>
+    <string name="pam_chornobyl">Memorial to victims of the Chernobyl disaster </string>
+    <string name="pam_afgan">Memorial complex to dead soldiers-Afghans</string>
+    <string name="pam_radiansk">Memorial to soldiers of the Soviet Army</string>
+    <string name="pam_znak">Memorable sign on the place of the destroyed monument to Shevchenko</string>
+    <string name="pam_zertvam">Monument to the victims of fascism</string>
+    <string name="pam_fedchuk">Andriy Fedchuk Monument</string>
+    <string name="pam_pavlovu">Ivan Pavlov Monument</string>
+    <string name="pam_maria">Statue of the Blessed Virgin Mary</string>
+    <string name="pam_kit">Monument to Cat Button</string>
+    <string name="pam_oleni">Sculptural composition «Deer Family»</string>
+
+    <string name="sobor_kp">Orthodox Cathedral (Kyiv Patriarchate)</string>
+    <string name="sobor_myh">St. Archistratigus Michael church</string>
+    <string name="sobor_yosaf">Church of the holy martyr Jehoshaphat</string>
+    <string name="kostek_loyoly">Jesuits church of St. Ihnatiy Loyola</string>
+    <string name="sobor_katol">Cathedral of the Transfiguration of Christ</string>
+    <string name="cerkva_blago">Annunciation of the Virgin Mary Church</string>
+    <string name="cerkva_mykoly">St. Nicholas church</string>
+    <string name="synagoga">Synagogue</string>
+    <string name="sobor_mp">Mykolatvo-Assumption Cathedral (Moscow Patriarchate)</string>
+    <string name="cerkva_baptystiv">Church of the Evangelical Christians-Baptists</string>
+
+    <string name="muzei_hutsul">National Museum of Hutsulshchyna and Pokuttya Folk Art named after Yosaphat Kobrynsky</string>
+    <string name="muzei_istorii">Museum of the History of Kolomyia</string>
+    <string name="svitovyd">Art Center Svitovyd</string>
+
+    <string name="school3">Secondary school of І-ІІІ degrees №3</string>
+    <string name="school1">Specialized school of I-III degrees №1 named after V. Stefanyk</string>
+    <string name="gimnazia">Gymnasium named after M. Hrushevsky</string>
+    <string name="teatr">Kolomyia Academic Ukrainian Drama Theatre named after Ivan Ozarkevych</string>
+    <string name="nardim">Palace of culture «Narodny dim»</string>
+    <string name="sokil">House of the Polish Gymnastic Society «Sokil»</string>
+    <string name="vokzal">Railway station</string>
+    <string name="school9">School-natural-mathematical lyceum</string>
+    <string name="goncharna">Tsisar-royal potter"'"s school</string>
+
+    <string name="aboutapp">«Kolomyia: guide and routes» (v 1.0). © M.V. Trots, 2018 \n \n
+        If you see that the content that is used in the app violates someone"'"s copyright, let us know by email. \n\n
+
+        In the description of locations used materials from the resources: \n
+        - publications and telecasts of local historian Vasily Nagirny; \n
+        - Wikipedia (https://uk.wikipedia.org); \n
+        - old photos taken from resource https://www.skyscrapercity.com/; \n\n
+
+        The translation of English and Polish language versions was done by https://translate.google.com\n\n
+
+        If you know interesting places that have not yet been added to the application - email us about them."</string>
+    <string name="fontlub">On August 19, 2016, a gala opening of the light and musical fountain took place in Kolomyia on Shevchenko Square. The watercourse was built at the expense of the International Charitable Foundation Pokuttia. \n\n
+
+In the decoration of the fountain used granite slabs. Vodogray itself is equipped with light dynamic lighting and musical accompaniment. \n\n
+
+On the side panels of the fountain were installed elements of the Kolomyian architecture - the image of the Museum of Easter eggs, Town Hall, the Cathedral of the Transfiguration of the UGCC, the National Museum of Hutsulshchyna and Pokuttia named after Kobrinsky.</string>
+    <string name="skver_stud">A popular place for youth leisure activities. \n\n
+
+Located in the very heart of Kolomyia, the square also serves as a location for conducting all kinds of youth events and concerts. It became possible to do away with the reconstruction of the square in 2017, during which a scene was erected in the square, set up dozens of benches and pavements.</string>
+    <string name="shevchoz">One of the most popular places for summer vacation is the inhabitants of Kolomyia.\n\n
+
+Near the lake there is a sports ground, an improvised street gym. In the lake you can fish, feed swans, ducks. The road around the lake is dirt, it is convenient to run around only during the dry season. Immediately behind the lake is the dam of the Prut River.\n\n
+
+Interesting fact: on April 22, 1989, when digging a pit under a lake, the 300-kilogram anchor was dug up by an escort. This anchor is located in the exposition of the museum of the history of the city of Kolomyia.</string>
+    <string name="klashtor_dzerelo">Kliashtor - a city source near the church of St. Michael and not far from the city hall. This is a memorial to nature and history. The source from which the monks of the Dominican monastery once dug water, subsequently turned into a city well. \n\n
+
+A Kliashtor translating from the Polish language means "monastic retreat". The monastery, which gave the name of the city well, has long been gone, but there is still a source. However, due to the pollution of the environment, a sign with a ban on water use was installed near the monastery. \n\n
+
+The current appearance came in 1996.</string>
+    <string name="oz_miske">Town lake (formerly Komsomolskoe) - a popular place among leisure places. During the warmer months, you can swim, swim in a boat or a catamaran, run around or ride a bike around the lake. In winter, when the surface is covered with ice, skating is here, playing hockey. \n\n
+
+Near the lake there are several sports and playgrounds, which also contributes to the popularity of this location among the inhabitants of Kolomyia.</string>
+    <string name="muzpys">Opened on September 23, 2000 during the Xth International Hutsul Festival. \n\n
+
+The museum exposes pain of 12,000 eggs and decorative eggs from different regions of Ukraine and countries of the world. The collection of Easter eggs preserves the traditions of pre-Christian times. \n\n
+
+In the Seven Wonders of Ukraine competition, the Museum took the 8th place by internet users and 17th place by experts.</string>
+    <string name="font2">Open September 4, 2015. Installed at the expense of local entrepreneurs.</string>
+    <string name="muzhucul">Kolomyia Museum of Folk Art of Hutsulshchyna and Pokuttia named after Yosafat Kobrinsky was founded in 1926. In the 1930s the Kolyma Museum "Hutsulshchyna" had 4 departments: historical, hutsul and cult art, ethnographic, as well as archives and libraries. \n\n
+
+Located in the central part of the city of Kolomyia, in the house of the former People"'"s House (built in 1902). From 1920 to 1935, the writer and lawyer Andrei Tchaikovsky lived in the building. \n\n
+
+The museum collects, stores, studies and popularizes works of folk art of Hutsulshchyna and Pokuttia from ancient times to the present day.</string>
+    <string name="muzist">The building was built in the second half of the 19th settlement, as the Kolomyia district council. Since 1990, the children"'"s music school №2 functioned indoors, since 1997 it has been a museum. \n\n
+
+Founded in 1990.\n\n
+
+There are 18 exhibiting stock and office premises in the museum"'"s premises. The general fund has more than 20 thousand exhibits. \n\n
+
+By visiting the museum you can learn about the various pages of the history of the city: the German colonies of Kolomyia; Education of Kolomyias at the end of the 19th - the first half of the 20th century; Economy and trade of the city in the 19th-18th centuries; From the history of the Jewish community of the city; From the history of the Ukrainian ethnic lands of modern Poland until 1944 and others.</string>
+    <string name="svitovyd_about">Opened in 2016. \n\n
+
+The artistic center is located in buildings constructed in Kolomyia by the Habsburg dynasty for the needs of the Austrian army, and with the advent of the communist Bolsheviks they were transformed into a death quarrel for thousands of fighters for the freedom of Ukraine. \n\n
+
+Here is the Habsburg Concert Hall, the name of which is a tribute to the memory and gratitude to the Imperial Habsburg family for a building that has been used by Colomians for more than two hundred years. In addition, there is the art gallery «Kolo Me I».</string>
+    <string name="shkola3">1907 - a seven-year Polish school named after him. St. Casimir. By the time the school was founded, and by 1918, 30 to 100 pupils attended school (no exact data). The following subjects were studied: Ukrainian (Russian), Roman Catholic and Jewish religions, accounts, geography, history, nature, singing. \n \n
+1944 - renamed the incomplete secondary Polish school number 10. In addition to other subjects, the school studied Jewish, Roman Catholic and Greek Catholic religions. The training was conducted in Polish, and Ukrainian was studied as an object. \n \n
+1946 - renamed the seven-year school number 3 with the Ukrainian language of instruction. \n\n
+1958 - renamed the eight-year secondary school number 3. \n\n
+1968 - New school building completed: 8 classrooms, gym, kitchen-dining room. \n\n
+1989 - Secondary School No. 3. \n\n
+1995 - renamed the secondary school of the І-ІІІ degrees №3.</string>
+    <string name="ratusha_about">Built in 1877, as a room for the magistrate of the city (once in another place was the old town hall, which burned down in 1865). The three-storey building, in terms of P-shaped, is built in neo-Renaissance style. The northern facade extends to the beginning of Hrushevsky Prospect, the eastern side of the Vejgel street. \n\n
+The Town Hall Tower is a cornerstone, which is quite unusual for such a type of buildings. The tower was built in 1948, square in the plan, with a simple decoration. The emblem of Kolomyia is located on the tower, and the clock is above it. Even higher, at the level of the sixth floor, a balcony was constructed to round the tower - from there they had once explored the city for a quicker alert in the event of a fire. \n\n
+According to the legend, on August 24, 1745, merchants and burgers witnessed that, in front of a wooden town hall, Michał Kozłowski cut a lousy body of Oleksa Dovbush into twelve pieces. \n</string>
+    <string name="shkola1">In 1849, the head of the district council, Mykola Vereshchynsky, appealed to the Austrian government on behalf of the Kolomyia to open a Ukrainian gymnasium in the city. The year 1861 allowed the institution to open, but the training was conducted in German and Polish. Only religion, Ukrainian grammar and reader are in Ukrainian. \n\n
+        Initially, they rent a room around the church of St. Michael In 1871 (after 10 years) the gymnasium moved into the newly built premises, which is still the building of school number 1. \n\n
+        In the 1864-65 academic year, 125 Ukrainians, 86 Poles, 12 Armenians, 12 Jews studied in the gymnasium. The director was Theodore Belous. He was not satisfied with the Poles, because he was not a Pole. Therefore, his release was achieved. The new Pole Director reduced the number of Ukrainians, both teachers and students.\n\n
+        In 1882, Ukrainians were already only 35%. Vasyl Stefanik, Les Martovich, Mikhail Pavlik, Marco Cheremshina, Yaroslav Pstrak, Volodymyr Navrotsky, Ostap Terletsky, Kirill Trilovsky and others were in trouble during this period of oppression. \n\n
+The first director of the Kolomyia Ukrainian Gymnasium was Sofron Nedilsky in 1900. This year is officially the year of the opening of the gymnasium. \n\n
+Kolomyia secondary school № 1 began its work in 1939 on the basis and in the walls of the former Ukrainian humanitarian grammar school. \n\n
+In 1971, the school was awarded the title of a former student of the gymnasium, the prominent Ukrainian novelist Vasyl Stefanik. \n\n
+1883 - Vasyl Stefanyk joins a Polish gymnasium in Kolomyia (present school No. 1), becomes a participant in the "Student Community" secret movement. \n\n
+1890 - Stefanik was expelled from Kolomyia Gymnasium for political convictions - defending the interests of ordinary people. \n\n
+Source: https://koloschool1.e-schools.info/</string>
+    <string name="gimnaz">April 25, 1901, for the educational needs of the holy Ursula sisters, a whole neo-roman style complex was built. From 1939 to 1990, the secondary school №1 functioned indoors. Since 1990 there is a gymnasium here.</string>
+    <string name="teater">The theater was created by the decision of the Government of the USSR at the end of 1939 in Kolomyia in the status of the state. In 1849, the first Ukrainian folk amateur theater was founded in Kolomyia - one of the first theatrical corps on the territory of Galicia, which gave performances in Kolomyia and in the cities of Galicia. Accordingly, the theatrical life in Kolomyia was very rich and the Soviet authorities had to simply legitimize existing Pokutian cultural traditions.</string>
+    <string name="narodnijdim">The building was built in 1892.\n\nIn the premises previously located "cashier". In her spacious conference hall, Ukrainian artists often performed: singer Solomiya Krushelnytska, actress Mariya Zankovetska, composers Mykola Lysenko, Dmitry Sichynsky, writers Vasyl Stefanyk and Natalia Kobrynska, often held concerts and solemn eveningings of local intellectuals.\n\nSource: http://kolomiya.glo.ua/cultura/narodnij-dim-kolomiya.html</string>
+    <string name="sokil_pro">In the past - the building of the fire brigade "Sokil". \n\n
+        Instructed in 1895 by the Polish Soccer Society "Sokol" for funds collected by the city"'"s public. The author of the original project, in which the modernist is combined with the German-Swiss style, is Ivan Levinsky. \n\nWatering with a wooden frame on three sides decorated with a ceramic frieze by Valerian Kritsinsky. \n\nWhile 1939 the building belonged to the Polish sports club "Sokol", with the exception of 1918-1919, when it contained the schooling of the Ukrainian Galician Army. \n\nAfter World War II, the building occupied the city building of culture, later - the House of Officers. From 2006 there was a Youth Center here. \n\nThe memorial plaque was installed on the facade of the building to commemorate the fact that in 1918-1919, Here was included the senior school UGA (2008 year).</string>
+    <string name="vokzal_about">The first railway connection between the cities of Chernivtsi and Lviv with the Kolomyia hub station was opened in 1865. \n\n
+
+In 1866, the building of the station was built, which by its architecture far exceeds the level of similar buildings in provincial cities. Now Kolomyia Station is located in a two-storey beautiful building. The interior is quite simple, but is distinguished by cleanliness and well-being. The station is equipped with a locomotive depot, a service point with inspection and repair shops.</string>
+    <string name="shkola9">In 1881, Kolomyia treasury districts did not have much, and not a lot, but the six counties of that time, such as Gorodenkivsky, Nadvirnyansky, Pechenezhinsky, Kosivsky, Snyatinsky and even Zalischytsky, which were in Ternopil. In addition, in the fifteen towns of the region, treasury departments-branches operated. Since then, we have adorned the middle of the building with a building of the Tsarist-royal Regional Directorate of Treasury. If the name of this institution is upgraded then we will have a bank and a tax inspection in the complex. \n\n
+
+The high status of the institution eloquently testified to the attic of the massive emblem of the Hapsburg Empire.</string>
+    <string name="gonch">The former building is located on the street. Vereshchynsky 59, built in 1893 by the architect Vysyakevich for the pottery school founded in 1875. \n\nCeramic elements of Valerian Kricinsky"'"s work are used in the facade decoration. \n\n
+ 
+In 1914 the school was closed, and all supplies were taken to Krakow. In the interwar period, there was a city center of health, a medical institution was also in the years of the German occupation, and from 1944 to the 1950's - a military unit. Subsequently, the building moved into a housing stock.</string>
+    <string name="kpsobor">The Cathedral of the Transfiguration of the UOC-KP in Kolomyia. Address: Hetman Ivan Mazepa street, 56-A.</string>
+    <string name="myhsobor">The building was built in 1855 on the site of the ancient Dominican monastery and holy spring. In 1871 a belfry was built. To this day it has virtually unchanged. \n\n
+ 
+The authors of the iconostasis of the church and images were the famous Ukrainian artist K. Ustijanovich and Hungarian - Miklos. Immediately the church became the center of spiritual and national-cultural development of the Ukrainians of Kolomyia. \n\n
+ 
+The wall paintings of the temple were performed in several stages by the Colomian artist V. Kricinsky. \n\n
+ 
+In 1885 and 1892, during the performance of the paintings, he was assisted by teachers of the potter"'"s school S. M. Dubitsky and S. M. Dachinsky. Then the images of Christ the Blessing, the four evangelists, the choir of angels were created. At the guard of faith and national culture, there were church fraternities that operated at the temple. Among them: "The Brotherhood of St. Archangel Michael", the female "Brotherhood of the Holy Family", "The Brotherhood of St. Peter's Apostle". The "Brotherhood of the Holy Family" lasted for the longest time, the basis of which consisted of the Colomian women - parishioners of the Church of St. Archangel Michael. The brotherhood lasted until September 9, 1955.</string>
+    <string name="yosafata">The building was built in 1775 in the Baroque style, under the project of the then-known Italian architect Bernardo Meretina. At that time it was a parochial Roman Catholic church of the Virgin Mary. \n\n
+ 
+The church left a remarkable mark in the church life of the city in the late 17th and early 20th centuries, uniting the believing Poles, and sometimes the Germans and Ukrainians. It was a large stone cathedral, the walls of which were clearly divided into tiers and were decorated with magnificent architectural decoration. \n\n
+ 
+During the fire of 1830 the temple was partially burned, its appearance was almost completely destroyed. Renovation work lasted until 1895. During the restoration the appearance of the church changed considerably, the facade decor was simplified, the number of stone parts was reduced. \n\n
+ 
+ According to legend, to this church were, basically, ordinary people, hoping for the protection of the Mother of God, so it was often called "common people". In the church there was a miraculous image of the Blessed Virgin Mary, or "Kolomyya God's Mother". In 1939 he was taken to Poland. A consecrated copy of this image is now in the Roman Catholic Church of St. Ignatius Loyola on the street. Ivan Franko. \n\n
+ 
+In the postwar Soviet times, the Church of the Virgin Mary was closed and after the reconstruction of the interior was transformed into a store "Children's World". With the restoration of Ukrainian statehood, on December 1, 1991 the temple was re-consecrated and restored its activity as the Greek-Catholic Church of the holy martyr Jeosafat Kuntsevich. \n\n
+ 
+Source: http://www.rtic.if.ua/</string>
+    <string name="loyola">In 1887, the wealthy elite of the Parish Church of the Virgin Mary, the Polish community of the city, turned to the leadership of the Order of the Society of Jesus with a letter in which invited Jesuit fathers and allowed them to build a church in the city. The agreement was signed in 1895. The construction was carried out under the project and under the direct supervision of the engineer N. Kzichkovsky. Estimates of the project amounted to 50 thousand golden Rynskim. \n\n
+        Most funds for the construction of the church came from the wealthy Catholic families of Kolomyia. From October 1, 1897, the construction was completed. Almost immediately after the opening the church became known as "gentleman". This indicated that the majority came from wealthy families. The Jesuit Fathers brought with them a large collection of church and secular books in various languages. Some of these books have been preserved and are now in the funds of the Kolomyian Museum. \n\n
+        The Jesuit missions in Kolomyia were not limited to enlightenment. They were engaged in charity, worked in hospitals, correctional institutions. In order to raise the level of education and spread the Catholic faith among the Kolomyans, in 1899 a separate building of the monastery and the special school of sisters-Ursulians was built. In addition to studying and religion, Ursulian sisters were engaged in gardening and gardening. \n\n
+        Now in this building is Kolomyia Gymnasium named after them. M. Hrushevsky, and the garden, laid by the Ursulian sisters, still grants its students to the gymnasium. \n\n
+        After the Second World War, the Jesuit Church Ignatius Loyola was closed. During the Soviet era, he was used for a long time as a storehouse of furniture. Only in 1990 the church was returned to the Roman Catholic community of the city. A consecrated copy of the image of the Blessed Virgin Mary was installed in the main altar. (The original was taken out in 1939 from the parish church to Poland, where it is now). \n\n
+        The restoration work was carried out in the temple, the walls of the church decorated the highlights of the scenes from the life of Jesus Christ. The pride of the temple was a bell, which arrived from New York in 1995, was consecrated by Bishop Markian Trofimyak, and set in the tower of the church. \n\nNew: http://www.rtic.if.ua</string>
+    <string name="katolspb">The largest Greek Catholic temple in the west of Ukraine. Built in 1998. Architect Victor Mitsai. \n\nSanctified the newly built temple in 2012. It is worth noting that the temple is two-story and 52 meters tall, can accommodate about two thousand believers on the first floor, and on the second - three thousand people.\n\n
+        The cathedral was brick, and funds for domes donated by John Paul II, when he arrived in Ukraine in 2001.\n\nNear the temple in the near future plan to build a 60-meter bell tower.</string>
+    <string name="blagovcerkv">The Annunciation Church can be considered the oldest example of the Hutsul wooden temple, which survived to this day. Despite the existence of two points of view on the date of the building of the church (1587 and the eighteenth century.), The actual survey of the main architectural and structural units of the building makes it possible to include its construction at the end of the XVI century. \n\nLike most church buildings of this group, the monument is a cross in the plan, five-chip, with a central one located on the top. All five log buildings have a quadrilateral plan in shape and are drawn horizontally in proportion, giving the buildings underlined the additive nature. This impression is aggravated by the arrangement around the church of a roundabout gallery on the figured brackets, which is the most pronounced horizontal accent in the volume composition of the building. The octagonal top of the central frame also emphasizes the horizontal character of the composition. \n\nThe bell tower, built in the XVIII century, is the most widespread in Hutsulshchyna a kind of wooden bell tower type Chetverik on Chetverik. The first tier is a log quadrangle, the 2nd is an open arcade gallery, crowned with a low tent roof. \n\nLike the church, the bell tower is emphasized by horizontal proportions, which is facilitated by the placement around it of a delicate damask on curly brackets. The monument is one of the most advanced ensembles of Hutsul folk architecture. \n\nSource: http://www.rtic.if.ua</string>
+    <string name="cerkvmyk">The building was built in 1873-1875 on the then northern outskirts of the city as a prayer house of the Protestant-Lutheran community of the German colony Baginsberg (founded in 1818) in the city of Kolomyia. Brick-stone building, covered with galvanized blister. Built on the collected funds of the colony community and private donations. \n\n
+The house was consecrated and opened on October 25, 1875. Protestants of other German colonies of the city then belonged to this religious community: Slavits (Slavits), Augustusdorf, Konstantinovka, Mikulsdorf, Noidorf and Bradgaym. In 1890, the parish consisted of 1,000 souls. \n\n
+In January 1940, all the colonists left for Germany. After the war in Soviet times in the prayer house of the year 20 was a warehouse of flax of the enterprise "Zagotzbitlion". Subsequently, the structure of the Kolomyiasilmash Machine-Building Plant. Since 1997, after the redevelopment, the Church of St. Nicholas is the Wonderworker of the Ukrainian Greek Catholic Church.</string>
+    <string name="synagoga_about">Temple of Jewish community on the street. Baker"'"s was built in the second half of the XIX century.</string>
+    <string name="russobor">Nikolaev-Assumption Cathedral in the city is a relatively new building. The building was erected recently - in 1997. The temple belongs to the Moscow Patriarchate, which is open to visiting during the day.</string>
+    <string name="baptysty">The Church of the Evangelical Christians-Baptists is in Kolomyia at the address: Hetman Ivan Mazepa Street, 93.</string>
+
+    <string name="mon1">Park of stone sculptures near the famous and the only world-wide museum of Easter eggs. \n\n
+ 
+The author of the project is Oksana Ostrovska. The sculptures were created by seven artists from different regions of Ukraine: Lviv, Zaporozhye, Kamyanets-Podilsky, Ivano-Frankivsk and Kolomyia.\n\n
+  
+In the park you can see the following sculptures: Darius Aleshhkin "Kura Chubutura", Solomiya Gorobyuk "Mother of Destiny", Serhiy Zholud "Birth", Sergey Klappetur "Melody of Hope", Gordian Starukh "Neosluchniki", Roman Zakharchuk "Beginning", Anton Lubi "Nurse".</string>
+    <string name="mon2">Open on August 27, 2012. The sculptors of the monument are Vasyl Andrushko (Kolomyya) and Vasyl Gurmak (Lviv), the architect of the project - Oleg Prits (Kolomyia).\n\n
+
+Almost three-meter monument is cast in bronze Lvov enterprise "PicArt". According to the project, it was planned to arrange a newly renovated square around the monument. Unfortunately, and to this time you can observe the lack of granite slabs in the pavement - work to the end has not been completed.</string>
+    <string name="mon3">It was opened on August 18, 1991, during the celebration of the 750th anniversary of the first written mention of Kolomyia. The author is the sculptor Vitaliy Rozhik.\n\n
+
+The monument to S. Bandera in Kolomyia is an exact copy of a monument set up in the village of Bandera - Old Ugirin of the Kalush District of Ivano-Frankivsk Oblast, destroyed by unknown saboteurs (apparently special services of the former USSR) at dawn on July 10, 1991.\n\n
+
+Material - artificial light stone. The construction of the monument was largely carried out by activists of democratic associations and volunteers during off-working time and free of charge, and the monument's place of installation was guarded around the clock until the day of its opening.\n\n
+
+Interesting fact: a pile of land fell from the grave of the OUN Explorer in Munich to the pedestal.</string>
+    <string name="mon4">Opened on August 22, 1993 in the city center. Sculptors M. Posikira, V. Rimar, L. Yaremchuk and architect B. Kamenschik. Material of the monument - bronze (more than 600 kilograms).\n\n
+
+At the opening, among others, was the People"'"s Deputy of Ukraine Vyacheslav Chornovil.</string>
+    <string name="mon5">Established on September 20, 1992 in honor of the 100th anniversary of the first Ukrainian class of the Kolomyia Gymnasium.\n\n
+
+The bust was created and installed on the voluntary contributions of high school teachers by sculptors Volodymyr Dmitrievich Rymar and Galina Dmitrievna Rimar. The monument is located in the courtyard of the M. Hrushevsky gymnasium on the street of Ivan Franko, 19.</string>
+    <string name="mon6">Established on October 14, 1974, opposite the Kolomyian Drama Theater. Earlier, in 1970, on the same square, a cinema named after Miroslav Irchan (now a supermarket) was opened.</string>
+    <string name="mon7">Opened on October 19, 1997 (sculptor V. Odrekhovsky). At the opening was the son of General UPA R. Shukhevych Yu Shukhevych. They installed a monument in the city park, which is now named after the name of Cyril Trilovsky.</string>
+    <string name="mon8">Opened in 1952. Authors of the bust: E. Zindra, I. Bodnaruk, V. Peredya. Material of the bust - cement and rubble stone.\n\n
+The monument was replaced by the previous one (1945), made of gypsum, which the unknown constantly eradicated. The park, which has a bust as a lake next to it, is called Shevchenko.</string>
+    <string name="mon9">Opened on January 5, 2008. The prototype of the monument became the UPA Miroslav Simchich ("Kryvonys").\n\n
+The monument to the height of three meters was established on the initiative of the Hero of Ukraine, now the late Vasyl Tkachuk. The author of the monument was the sculptor Roman Zakharchuk. Interesting fact: earlier there was a monument to the proletarians.</string>
+    <string name="mon10">Opened on August 20, 2016. The initiator of the installation - Valery Kovtun. The design was designed by the Honored Artist of Ukraine Miroslav Yasinsky, but the sculptor Roman Zakharchuk and Mykhailo Shkrabyuk embodied the idea in the stone.\n\n
+The monument commemorates the first Kolomyian publishers of the Belousov brothers, symbolizing respect for the printed word as the foundations of the civilization. The opening was timed to the celebration of the 775th anniversary of Kolomyia.</string>
+    <string name="mon11">Installed in 1898, sculptor S. Dachinsky. Located in the park named after them. K. Trilovsky. On June 5, 1898, Kolomyia hosted a solemn procession of Kolomyian Poles, Ukrainians and Jews on the occasion of the 100th anniversary of the birth of the prominent genius of the Polish nation A. Mickiewicz, and hence the opening of his monument in the city park.\n\n
+        At the celebration there were local Polish authorities, guests from Chernivtsi, Stanislaviv, Ternopil, Lviv and Snyatyn, several hundred Polish peasants from Tsenyava and Velyka Kamyanka, now Kolomyia district, workers from mishin and smithing mines.</string>
+    <string name="mon12">The monument to the victims of the Chernobyl tragedy was established in 2002. Kolomyia public organization of invalids "Union of Chernobyl of Ukraine" on its own established a monument to the fallen in the fight against radiation pollution, as a reminder of the countless scratched and lost fate.</string>
+    <string name="mon13">Memorial complex of memory of soldiers of Ukraine who have fallen in Afghanistan.\n\n
+Opened on November 2, 2003 by the Veterans"'" League of Afghanistan in Kolomyia.</string>
+    <string name="mon14">The memorial to the soldiers of the Soviet Army, who perished during the Second World War (1941-1945) during the liberation of the city, was built in 1954. The reconstruction was carried out in 1986 (Geroev square), architect O. Mikhanko.\n\n
+Now the square where the monument is located is called the Area of Sorrow. </string>
+    <string name="mon15">Established in 1991, before the celebration of the 750th anniversary of the first written mention of Kolomiya (author - Ilko Koval from Snyatin).\n\n
+The sign is located approximately at the same place where on May 28, 1914, the solemn opening of the monument to Kobzarov was held, and where, as soon as the First World War began, Russian soldiers dismantled the Shevchenko bust.</string>
+    <string name="mon16">Monument to the victims of fascism, built of reinforced concrete in 1967. The memorial has the shape of a rectangle. Height 2 meters, width 2 meters, length 0,60 meters.\n\n
+On the right side, the image of a woman in grief, on the left, the inscription:\n\n
+"Passer-by, stop! Celebrate the silence of the Nazis shot dead in the city of Kolomyia by 25,000 Soviet citizens. Fascism should not be repeated. 1967."</string>
+    <string name="mon17">Opened on September 29, 2013.\n\n
+Andriy Fedchuk is a Ukrainian boxer and prizewinner of the Olympic Games. Honored Master of Sports of Ukraine on boxing. He chose the bronze medal at the Sydney Olympics in the first heavyweight. Honorary citizen of Kolomyia city (posthumously).</string>
+    <string name="mon18">Bust I. P. Pavlov is in the yard of the Kolomyia Central District Hospital.\n\n
+Ivan Petrovich Pavlov (September 14 (26), September 1849, Ryazan, February 27, 1936, Leningrad) - physiologist, creator of the science of higher nervous activity and ideas about the processes of regulation of digestion; founder of the largest Russian physiological school; Nobel Prize laureate in the field of physiology or medicine in 1904 "For work on the physiology of etching."</string>
+    <string name="mon19">Installed on the Boulevard of Lesia Ukrainka near the Factory Factory.\n\n
+Material - concrete, pedestal 1.2 meters, figure - 3 meters tall.</string>
+    <string name="mon20">Opened on August 19, 2016, on the 775th anniversary of the first written mention of Kolomyia. The author is a local artist and sculptor Oleg Loburak.\n\n
+The Cat-Violinist is located in the center of the park named after Cyril Trilovsky. The monument depicts a cat in the Hutsul creek, which plays the violin. And on the belt it has a magic button.</string>
+    <string name="mon21">The monument, which served as an ornament of the Kolomyia park since Soviet times. It is now in a desperate state.</string>
+
+
+
+
+
+</resources>
+
+
+
+

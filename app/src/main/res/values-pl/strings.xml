@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Kołomija: przewodnik i wskazówki</string>
+
+    <string name="action_about">O aplikacji</string>
+    <string name="places_list">Lista lokalizacji</string>
+    <string name="rate_app">Oceń aplikację</string>
+
+    <string name="popular">Popularny</string>
+    <string name="monuments">Pomniki</string>
+    <string name="architecture">Architektura</string>
+    <string name="religion">Religia</string>
+    <string name="museums">Muzea</string>
+
+    <string name="routes">Trasy</string>
+    <string name="routes_btn">Trasy</string>
+    <string name="btn_routes">Trasa</string>
+    <string name="locatios_btn">Obiekty</string>
+    <string name="send_messege">Napisz list</string>
+
+    <string name="vodograi_liubovi">Fontanna miłości</string>
+    <string name="stud_skver">Skwer Studencki</string>
+    <string name="sh_ozero">Jezioro Szewczenkowskiego</string>
+    <string name="kliashtor">Źródło "Klyashtor"</string>
+    <string name="miske_ozero">Jezioro miejskie</string>
+    <string name="muz_pys">Muzeum Pisanek</string>
+    <string name="fontan">Fontanna w pobliżu rynku</string>
+    <string name="ratusha">Ratusz</string>
+
+    <string name="park_skulptur">Park rzeźb «7 wspaniałych pisanek»</string>
+    <string name="pam_frank">Pomnik Iwana Franki</string>
+    <string name="pam_band">Pomnik Stepana Bandery</string>
+    <string name="pam_sh_1">Pomnik Tarasa Szewczenki (centrum miasta)</string>
+    <string name="pam_grush">Pomnik Michaiła Hrushevsky</string>
+    <string name="pam_irch">Pomnik Myroslava Irchana</string>
+    <string name="pam_tryl">Pomnik Cyryla Trilowskiego</string>
+    <string name="pam_sh_2">Pomnik Tarasa Szewczenki (park)</string>
+    <string name="pam_borciam">Pomnik bojowników o niepodległą Ukrainę</string>
+    <string name="pam_druk">Pomnik wydawnictwa Kołomyja</string>
+    <string name="pam_mickev">Pomnik Adama Mickiewicza</string>
+    <string name="pam_chornobyl">Pomnik ofiar tragedii w Czarnobylu</string>
+    <string name="pam_afgan">Kompleks pamiątkowy dla poległych żołnierzy-Afgańczyków</string>
+    <string name="pam_radiansk">Pomnik żołnierzy Armii Radzieckiej</string>
+    <string name="pam_znak">Niezapomniany znak na stronie zniszczonego pomnika Szewczenki</string>
+    <string name="pam_zertvam">Pomnik ofiar faszyzmu</string>
+    <string name="pam_fedchuk">Pomnik Andrija Fedczuka</string>
+    <string name="pam_pavlovu">Pomnik Iwana Pawłowa</string>
+    <string name="pam_maria">Pomnik Najświętszej Maryi Panny</string>
+    <string name="pam_kit">Pomnik kota Guziki</string>
+    <string name="pam_oleni">Kompozycja rzeźbiarska «rodzina jeleni»</string>
+
+    <string name="sobor_kp">Sobór Przemienienia Pańskiego (Patriarchat Kijowski)</string>
+    <string name="sobor_myh">Katedra św. Archanioła Michała</string>
+    <string name="sobor_yosaf">Kościół świętego męczennika Jehoszafata</string>
+    <string name="kostek_loyoly">Kościół św. Ignacego Loyoli</string>
+    <string name="sobor_katol">Katolicka Katedra Przemienienia Pańskiego</string>
+    <string name="cerkva_blago">Kościół Zwiastowania Najświętszej Maryi Panny</string>
+    <string name="cerkva_mykoly">Kościół św. Mikołaja Cudotwórcy</string>
+    <string name="synagoga">Synagoga</string>
+    <string name="sobor_mp">Katedra Wniebowzięcia Nikolaev (Patriarchat Moskiewski)</string>
+    <string name="cerkva_baptystiv">Kościół ewangelicko-chrześcijańskich-baptystów</string>
+
+    <string name="muzei_hutsul">Muzeum Sztuki Ludowej Huculszczyzny i Pokucia im. J. Kobrynskiego</string>
+    <string name="muzei_istorii">Muzeum Historii Kołomyi</string>
+    <string name="svitovyd">Art Center Svitovyd</string>
+
+    <string name="school3">Szkoła średnia №3</string>
+    <string name="school1">Specjalistyczna szkoła №1 im. V. Stefanyka</string>
+    <string name="gimnazia">Gimnazjum im. M. Hrushevsky"'"ego</string>
+    <string name="teatr">Kołomyja Akademicki Regionalny Teatr Dramatyczny Ukrainy im. Iwana Ozariejewicza</string>
+    <string name="nardim">Pałac Kultury «Dom Ludowy»</string>
+    <string name="sokil">Dom Polskiego Towarzystwa Gimnastycznego «Sokół»</string>
+    <string name="vokzal">Stacja kolejowa</string>
+    <string name="school9">Szkoła-liceum naturalne-matematyczne №9</string>
+    <string name="goncharna">Tsisar-królewski szkoła garncarska</string>
+
+    <string name="aboutapp">«Kołomija: przewodnik i wskazówki» (v 1.0). © М.V. Trots, 2018 \n \n
+        Jeśli zauważysz, że treści używane w aplikacji naruszają czyjeś prawa autorskie, daj nam znać przez e-mail. \n\n
+
+        W opisie lokalizacji użytych materiałów z zasobów: \n
+        - publikacje i programy telewizyjne lokalnego historyka Vasily"'"ego Nagirnego; \n
+        - Wikipedia (https://uk.wikipedia.org); \n
+        - stare zdjęcia zrobione z zasobu https://www.skyscrapercity.com/; \n\n
+
+        Tłumaczenie angielskiej i polskiej wersji językowej zostało wykonane przez https://translate.google.com\n\n
+
+        Jeśli znasz interesujące miejsca, które nie zostały jeszcze dodane do aplikacji - napisz do nas o nich."</string>
+    <string name="fontlub">19 sierpnia 2016 r. W Kolomyi na placu Szewczenki odbyło się uroczyste otwarcie fontanny światła i muzyki. Ciek wodny zbudowano kosztem Międzynarodowej Fundacji Dobroczynności Pokuttia.\n\n
+
+W dekoracji fontanny używano płyt granitowych. Sam Vodogray wyposażony jest w dynamiczne oświetlenie świetlne i akompaniament muzyczny. \n\n</string>
+    <string name="skver_stud">Popularne miejsce do spędzania wolnego czasu dla młodzieży. \n\n
+
+Zlokalizowany w samym sercu Kołomyi plac pełni funkcję miejsca do organizowania wszelkiego rodzaju imprez młodzieżowych i koncertów. W 2017 roku udało się zlikwidować odbudowę placu, podczas którego na placu ustawiono scenę, ustawiono dziesiątki ławek i chodników. \n\n</string>
+    <string name="shevchoz">Jednym z najbardziej popularnych miejsc na letnie wakacje są mieszkańcy Kołomyi.\n\n
+
+W pobliżu jeziora znajduje się boisko sportowe, improwizowana siłownia uliczna. W jeziorze można łowić ryby, łabędzie, kaczki. Droga wokół jeziora jest brudna, wygodnie jest biegać tylko w porze suchej. Bezpośrednio za jeziorem znajduje się tama rzeki Prut.</string>
+    <string name="klashtor_dzerelo">Klyashtor - źródło miasta w pobliżu kościoła św. Michała i niedaleko ratusza. Jest to pomnik przyrody i historii. Źródło, z którego mnisi z klasztoru dominikanów wykopali kiedyś wodę, następnie przekształcili się w studnię miejską. \n\n
+
+Klyashtor tłumaczący z języka polskiego oznacza "rekolekcje monastyczne". Klasztor, który dobrze nadał nazwę miastu, dawno już minął, ale nadal istnieje źródło. Jednak w związku z zanieczyszczeniem środowiska w pobliżu klasztoru zainstalowano tabliczkę z zakazem używania wody. \n\n
+
+Obecny wygląd pojawił się w 1996 roku.</string>
+    <string name="oz_miske">Jezioro miejskie (dawniej Komsomolskoe) - popularne miejsce wśród miejsc rekreacyjnych. W cieplejsze miesiące można pływać, pływać łodzią lub katamaranem, biegać lub jeździć na rowerze po jeziorze. Zimą, gdy powierzchnia jest pokryta lodem, jazda na łyżwach jest tutaj, grając w hokeja. \n\n
+
+W pobliżu jeziora znajduje się kilka obiektów sportowych i placów zabaw, co również przyczynia się do popularności tej lokalizacji wśród mieszkańców Kołomyi.</string>
+    <string name="muzpys">Otwarty 23 września 2000 r. Podczas X Międzynarodowego Festiwalu Huculskiego. \n\n
+
+Muzeum eksponuje ból 12.000 jaj i dekoracyjnych jaj z różnych regionów Ukrainy i krajów świata. Kolekcja pisanek zachowuje tradycje z czasów przedchrześcijańskich. \n\n
+
+W konkursie Siedmiu Cudów Ukrainy Muzeum zajęło 8. miejsce wśród internautów i 17 miejsce w rankingu ekspertów.</string>
+    <string name="font2">Otwórz 4 września 2015 r. Zainstalowane na koszt lokalnych przedsiębiorców.</string>
+    <string name="muzhucul">Muzeum Sztuki Ludowej Huculszczyny i Pokuttii im. Yozafata Kobryńskiego zostało założone w 1926 r. W latach 30-tych Muzeum Kołyma "Huculszczyna" posiadało 4 działy: huculski i historyczny, etnograficzny, a także archiwum i biblioteki. \n\n
+
+Położony w centralnej części miasta Kołomyi, w domu dawnego Domu Ludowego (zbudowany w 1902 r.). W latach 1920-1935 w budynku mieszkał pisarz i prawnik Andriej Czajkowski. \n\n
+
+Muzeum gromadzi, przechowuje, bada i popularyzuje dzieła sztuki ludowej Huculszczyny i Pokuttii od czasów starożytnych do współczesności.</string>
+    <string name="muzist">Budynek został wybudowany w drugiej połowie 19. osiedla, jako rada powiatu kolomyja. Od 1990 roku szkolna szkoła muzyczna nr2 funkcjonowała w pomieszczeniach zamkniętych, od 1997 roku jest muzeum. \n\n
+
+Muzeum Historyczne w Kołomyi, założone w 1990 roku. \n\n
+
+Na terenie muzeum znajduje się 18 eksponatów magazynowych i biurowych. Ogólny fundusz ma ponad 20 tysięcy eksponatów. \n\n
+
+Odwiedzając muzeum można zapoznać się z różnymi stronami historii miasta: niemieckimi koloniami z Kołomyi; Edukacja Kołomyjasza pod koniec XIX w. - pierwsza połowa XX wieku; Gospodarka i handel miasta w XIX-XVIII wieku; Z historii żydowskiej społeczności miasta; Z historii ukraińskich ziem etnicznych współczesnej Polski do 1944 r. I innych.</string>
+    <string name="svitovyd_about">Otwarty w 2016 roku. \n\n
+
+Centrum artystyczne znajduje się w budynkach zbudowanych w Kołomyi przez dynastię Habsburgów na potrzeby armii austriackiej, a wraz z nadejściem komunistycznych bolszewików przekształciły się w kłótnię śmierci dla tysięcy bojowników o wolność Ukrainy. \n\n
+
+Oto Habsburgowska Sala Koncertowa, której nazwa jest hołdem złożonym pamięci i wdzięczności cesarskiej rodzinie Habsburgów za budynek, który był używany przez Kolumbijczyków od ponad 200 lat. Ponadto znajduje się galeria sztuki «Kolo Me I».</string>
+    <string name="shkola3">1907 r. - siedmio letnia szkoła polska, nazwana jego imieniem. Św. Kazimierza. Do czasu założenia szkoły do ​​1918 r. Uczęszczało do niej od 30 do 100 uczniów (brak dokładnych danych). Badano następujące tematy: religie ukraińskie (rosyjskie), rzymsko-katolickie i żydowskie, relacje, geografię, historię, naturę, śpiew. \n\n
+1944 - przemianowany na niekompletną drugorzędną polską szkołę nr 10. Oprócz innych przedmiotów, szkoła studiowała religie żydowskie, rzymsko-katolickie i greckokatolickie. Szkolenie przeprowadzono w języku polskim, a język ukraiński badano jako obiekt. \ N \ n
+1946 - przemianowany na siedmioletnią szkołę numer 3 z ukraińskim językiem nauczania. \n\n
+1958 - przemianowany na ośmioletnią szkołę średnią nr 3. \n\n
+1968 - ukończono budowę nowej szkoły: 8 sal lekcyjnych, siłownia, kuchnia-jadalnia. \n\n
+1989 - Gimnazjum nr 3. \n\n
+1995 - przemianowany na szkołę średnią І-ІІІ stopni №3.</string>
+    <string name="ratusha_about">Zbudowany w 1877 r. Jako sala dla magistratu miasta (raz w innym miejscu był stary ratusz, który spłonął w 1865 r.). Trzykondygnacyjny budynek, w kształcie litery P, zbudowany jest w stylu neorenesansowym. Fasada północna rozciąga się na początek Prospektu Hrushevsky, wschodniej strony ulicy Vejgel. \n\nWieża ratuszowa jest kamieniem węgielnym, co jest dość niezwykłe dla tego typu budynków. Wieża została zbudowana w 1948 r., Kwadrat w planie, z prostą dekoracją. Godło Kołomyi znajduje się na wieży, a zegar znajduje się nad nią. Nawet wyższy na szóstym piętrze balkon umieszczonym na objazd wokół wieży - z nim raz wychodził na miasto do szybkiego powiadamiania w przypadku wystąpienia pożaru. \n\nWedług legendy, August 24, 1745 kupcy i rzemieślnicy widzieli jak drewniane rzeźnika Michał Kozłowski Hall wyciąć dwanaście sztuk martwe ciało Aleksy Dobosz. \n</string>
+    <string name="shkola1">W 1849 r. Przewodniczący rady powiatu Mykoła Wasilczynsky zwrócił się do rządu austriackiego w imieniu Kolomyi o otwarcie ukraińskiego gimnazjum w mieście. Rok 1861 pozwolił instytucji otworzyć się, ale szkolenie odbyło się w języku niemieckim i polskim.\n\n
+        Tylko religia, ukraińska gramatyka i czytelnik są po ukraińsku. Początkowo wynajmują pokój wokół kościoła św. Michael W 1871 (po 10 latach) gimnazjum przeniosło się do nowo wybudowanego lokalu, który nadal jest budynkiem szkoły numer 1. \ n \ nW roku akademickim 1864-65 w gimnazjum studiowało 125 Ukraińców, 86 Polaków, 12 Ormian i 12 Żydów. Reżyserem był Theodore Belous. Nie był zadowolony z Polaków, bo nie był Polakiem. Dlatego jego uwolnienie zostało osiągnięte. \n\n
+        Nowy dyrektor Polaków zmniejszył liczbę Ukraińców, zarówno nauczycieli, jak i studentów. W 1882 r. Ukraińcy byli już tylko 35%. W tym czasie ucisku uczy Vasil Stefanik Les Martovych, Michael PAVLÍK, Marco Cheremshyna Jaroslav Pstrak Vladimir Nawrocki Ostap Terletsky Cyril Trylovskyy wsp. \n\n
+Pierwszym dyrektorem ukraińskiego gimnazjum w Kołomyi był Sofron Nedilsky w 1900 roku. Ten rok jest oficjalnie rokiem otwarcia gimnazjum. \n\n
+Szkoła średnia nr 1 w Kołomyi rozpoczęła swoją działalność w 1939 r. Na bazie i na murach byłego ukraińskiego gimnazjum humanitarnego. \n\n
+W 1971 r. Szkoła otrzymała tytuł byłego ucznia gimnazjum, wybitnego ukraińskiego powieściopisarza Vasyl Stefanik. \n\n
+1883 - Vasyl Stefanyk dołącza do polskiego gimnazjum w Kołomyi (obecna szkoła nr 1), staje się uczestnikiem tajnego ruchu "Społeczności studenckiej". \n\n
+1890 - Stefanik został wydalony z Gimnazjum Kołomyi za przekonania polityczne - broniąc interesów zwykłych ludzi. \n\n
+Zasób: https://koloschool1.e-schools.info/</string>
+    <string name="gimnaz">25 kwietnia 1901 r., W celu zaspokojenia potrzeb edukacyjnych świętych sióstr Urszuli, zbudowano cały kompleks neoromański. Od 1939 r. Do 1990 r. Liceum nr 1 funkcjonowało w pomieszczeniach zamkniętych. Od 1990 roku jest tu gimnazjum.</string>
+    <string name="teater">Teatr powstał na mocy decyzji rządu ZSRR pod koniec 1939 r. W Kołomyi w statusie państwa. W 1849 r. Powstał pierwszy ukraiński amatorski teatr ludowy w Kołomyi - jeden z pierwszych korpusów teatralnych na terenie Galicji, który występował w Kołomyi iw miastach Galicji. W związku z tym życie teatralne w Kołomyi było bardzo bogate, a władze sowieckie musiały po prostu legitymizować istniejące tradycje kulturalne Pokutów.</string>
+    <string name="narodnijdim">Budynek został wybudowany w 1892 roku.\n\nW lokalu wcześniej znajdował się "kasjer". W swojej obszernej sali konferencyjnej często występowali ukraińscy artyści: wokalistka Solomija Krushelnytska, aktorka Mariya Zankovetska, kompozytorzy Mykola Lysenko, Dmitry Sichynsky, pisarze Wasyl Stefanyk i Natalia Kobryńska, często odbywała koncerty i uroczyste wieczory lokalnych intelektualistów.\n\nZasób: http://kolomiya.glo.ua/cultura/narodnij-dim-kolomiya.html</string>
+    <string name="sokil_pro">W przeszłości - budynek straży pożarnej "Sokil". \n\n
+        Instruowany w 1895 roku przez Polskie Towarzystwo Piłkarskie "Sokol" dla funduszy zebranych przez publiczność miasta. Autorem pierwotnego projektu, w którym modernistą połączono ze stylem niemiecko-szwajcarskim, jest Iwan Lewiński. \n\nWatering z drewnianą ramą z trzech stron ozdobioną ceramicznym fryzem autorstwa Waleriana Kritsińskiego. \n\n Do 1939 budynek należał do Polskiego Towarzystwa Sportowego „Sokół”, z wyjątkiem lat 1918-1919., Kiedy szkoła mieści oficerów Ukraińskiej Armii galicyjski. \n\n Po II wojnie światowej budynek zajmował miejski budynek kultury, a później Dom Oficerów. Od 2006 roku istniało tu Centrum Młodzieży. \n\nNa fasadzie budynku zainstalowano tablicę pamiątkową dla upamiętnienia faktu, że w latach 1918-1919 Tutaj uwzględniono starszą szkołę UGA (rok 2008).</string>
+    <string name="vokzal_about">Pierwsze połączenie kolejowe między miastami Czerniowce i Lwów ze stacją paliw Kolomyia zostało otwarte w 1865 roku. \n\n
+
+W 1866 r. wybudowano budynek dworca, który ze względu na swoją architekturę znacznie przewyższa poziom podobnych budynków w prowincjonalnych miastach. Teraz stacja Kolomyia znajduje się w dwupiętrowym pięknym budynku. Wnętrze jest dość proste, ale wyróżnia się czystością i dobrym samopoczuciem. Stacja wyposażona jest w zajezdnię lokomotyw, punkt serwisowy z warsztatami kontrolno-naprawczymi.</string>
+    <string name="shkola9">1881 roku dzielnic Kolomyyskoy skarbovni należała miał niewiele, a następnie sześć hrabstw takich jak Gorodenkovskiy Nadvirnyans"'"kyi, Pechenizhynskyy, Kosowie, a nawet Snyatyn Zaleszczyki, że w Tarnopolu. Ponadto w piętnastu miastach regionu funkcjonowały oddziały skarbowe - oddziały. Od tego czasu zdobiliśmy środek budynku w budynku carskiej królewskiej Regionalnej Dyrekacji Skarbu. Jeśli zostanie zaktualizowana nazwa tej instytucji, będziemy mieli w banku kompleksową kontrolę podatkową i podatkową. \n\n
+
+Wysoki status instytucji wymownie świadczył o strychu masywnego emblematu imperium Habsburgów.</string>
+    <string name="gonch">Dawny budynek znajduje się na ulicy. Vereshchynsky 59, zbudowany w 1893 roku przez architekta Vysyakevicha dla szkoły garncarskiej założonej w 1875 roku. \n\n
+Elementy ceramiczne z dziełami Waleriana Kricińskiego są wykorzystywane w dekoracji fasady. \n\n
+W 1914 r. Szkoła została zamknięta, a wszystkie zapasy zostały przewiezione do Krakowa. W okresie międzywojennym istniało centrum zdrowia, instytucja medyczna również w latach okupacji niemieckiej, a od 1944 do 1950 - jednostka wojskowa. Następnie budynek przeniósł się do zasobów mieszkaniowych.</string>
+    <string name="kpsobor">Katedra Przemienienia Pańskiego UOC-KP w Kołomyi. Adres: ulica hetmana Iwana Mazepa, 56-A.</string>
+    <string name="myhsobor">Budynek został zbudowany w 1855 roku w miejscu dawnego klasztoru dominikanów i świętego źródła. W 1871 r. Zbudowano dzwonnicę. Do dziś praktycznie nie uległa zmianie. \n\nAutorami ikonostasu kościoła i obrazów byli słynny ukraiński artysta K. Ustijanovich i węgierski Miklos. Natychmiast kościół stał się centrum rozwoju duchowego i narodowo-kulturalnego Ukraińców z Kołomyi. \n\n
+Malowidła ścienne świątyni wykonał w kilku etapach kolumbijski artysta V. Kricinsky. \n\n
+W latach 1885 i 1892 w czasie wykonywania obrazów wspomagali go nauczyciele szkoły garncarskiej S. M. Dubitsky i S. M. Dachinsky. Potem powstały obrazy Chrystusa Błogosławieństwa, czterech ewangelistów, chóru aniołów. W straży wiary i kultury narodowej istniały wspólnoty kościelne, które działały w świątyni. Wśród nich: "Bractwo św. Archanioła Michała", żeńska "Bractwo Świętej Rodziny", "Bractwo św. Piotra Apostoła". "Bractwo Świętej Rodziny" trwało najdłużej, na co składały się kobiety z Kolumbii - parafianie Kościoła św. Archanioła Michała. Bractwo trwało do 9 września 1955 r.</string>
+    <string name="yosafata">Budynek został zbudowany w 1775 roku w stylu barokowym, w ramach projektu znanego wówczas włoskiego architekta Bernarda Meretiny. W tym czasie był to parafialny rzymskokatolicki kościół Marii Panny. \n\n
+ 
+Kościół pozostawił niezwykły ślad w kościelnym życiu miasta pod koniec XVII i na początku XX wieku, jednocząc wierzących Polaków, a czasem Niemców i Ukraińców. Była to duża kamienna katedra, której ściany były wyraźnie podzielone na poziomy i ozdobione wspaniałą dekoracją architektoniczną. \n\n
+ 
+Podczas pożaru w 1830 r. Świątynia została częściowo spalona, ​​jej wygląd został prawie całkowicie zniszczony. Prace remontowe trwały do ​​1895 roku. Podczas renowacji wygląd kościoła znacznie się zmienił, wystrój elewacji został uproszczony, zmniejszono liczbę elementów kamiennych. \n\n
+ 
+ Według legendy do tego kościoła należały w zasadzie zwykli ludzie, mając nadzieję na opiekę Matki Bożej, dlatego nazywano je często "zwykłym ludem". W kościele znajdował się cudowny obraz Najświętszej Maryi Panny, czyli "Matki Bożej Kolomyi". W 1939 r. Został zabrany do Polski. Oddana kopia tego obrazu znajduje się teraz w rzymskokatolickim kościele św. Ignacego Loyoli, przy ulicy Iwana Franki. \n\n
+ 
+W powojennych czasach sowieckich kościół Marii Panny został zamknięty, a po przebudowie wnętrza przekształcono w magazyn "Świat dzieci". Wraz z przywróceniem państwowości ukraińskiej 1 grudnia 1991 r. Świątynia została ponownie poświęcona i przywrócona została działalność Kościoła greckokatolickiego świętego męczennika Jeosafata Kuntsevicha. \n\n
+ 
+Źródło: http://www.rtic.if.ua/</string>
+    <string name="loyola">W 1887 roku kościół zamożny elita parafialny NMP, Polonii, zaapelował do kierownictwa Zakonu „Towarzystwo Jezusowe” z listem, który został zaproszony do swoich ojców jezuitów i pozwoliło im na budowę kościoła w mieście. Umowa została podpisana w 1895 roku. Budowa została przeprowadzona w ramach projektu i pod bezpośrednim nadzorem inżyniera N. Kzichkovsky. Szacunki projektu wyniosły 50 tysięcy złotych Rynskim. \n\nJedne fundusze na budowę kościoła pochodziły z zamożnych katolickich rodzin z Kołomyi. Od 1 października 1897 r. Budowa została zakończona. Niemal natychmiast po otwarciu kościół stał się znany jako "dżentelmen". Wskazuje to, że większość pochodziła z zamożnych rodzin. Ojcowie jezuici przynieśli ze sobą duży zbiór książek kościelnych i świeckich w różnych językach. Niektóre z tych książek zostały zachowane i znajdują się obecnie w funduszach Muzeum Kolomyja. \n\n
+Misje jezuickie w Kołomyi nie ograniczały się do oświecenia. Zaangażowali się w działalność charytatywną, pracowali w szpitalach, zakładach poprawczych. W celu poprawy edukacji i szerzenia wiary katolickiej wśród kolomyyanok w 1899 roku wybudowano osobny budynek klasztoru i szkołach specjalnych siostry ursulyanok. Oprócz nauki i religii, siostry Urszulanki zajmowały się ogrodnictwem i ogrodnictwem. \n\n
+Teraz w budynku znajduje się Gimnazjum im. Kołomyi. M. Hrushevsky, a ogród złożony przez urszulanki nadal przekazuje uczniów do gimnazjum. \n\n
+Po II wojnie światowej kościół jezuitów Ignacy Loyola został zamknięty. W czasach Związku Radzieckiego przez długi czas był używany jako magazyn mebli. Dopiero w 1990 roku kościół został zwrócony rzymskokatolickiej wspólnocie miasta. W ołtarzu głównym umieszczono poświęconą kopię obrazu Najświętszej Maryi Panny. (Oryginał został wywieziony w 1939 r. Z kościoła parafialnego do Polski, gdzie jest teraz). \n\n
+Prace konserwatorskie zostały przeprowadzone w świątyni, a ściany kościoła ozdobiły najważniejsze sceny z życia Jezusa Chrystusa. Ozdobą świątyni był dzwon, który przybył z Nowego Jorku w 1995 roku, konsekrowany przez biskupa Markiana Trofżiaka i osadzony w wieży kościoła. \n\n
+Zasób: http://www.rtic.if.ua</string>
+    <string name="katolspb">Największa grecka świątynia katolicka na zachodzie Ukrainy. Zbudowany w 1998 roku. Architekt Victor Mitsai. \n\n
+
+Uświęcili nowo wybudowaną świątynię w 2012 roku. Warto zauważyć, że świątynia jest dwupiętrowa i ma 52 metry wysokości, może pomieścić około dwóch tysięcy wiernych na pierwszym piętrze, a na drugim - trzy tysiące osób. \n\n
+
+Katedra była murowana, a fundusze na kopuły ofiarowane przez Jana Pawła II, kiedy przybył na Ukrainę w 2001 roku. \n\n
+
+W pobliżu świątyni w niedalekiej przyszłości planuje się budowę 60-metrowej dzwonnicy.</string>
+    <string name="blagovcerkv">Kościół Zwiastowania można uznać za najstarszy przykład drewnianej świątyni huculskiej, która przetrwała do dziś. Pomimo istnienia dwóch punktów widzenia dotyczących daty budowy kościoła (1587 i XVIII w.), Badanie na pełną skalę z głównych jednostek architektoniczny i konstrukcyjny budowlanych konstrukcja pozwala wziąć to pod koniec XVI wieku. \n\n
+Podobnie jak większość budynków kościelnych tej grupy, pomnik jest krzyżem w planie, pięcio-chipowym, z centralnym na górze. Wszystkie pięć budynków z bali ma kształt czworoboku i są rysowane poziomo proporcjonalnie, dzięki czemu budynki podkreślają charakter dodatków. To wrażenie jest wzmocnione organizowanie obwodnicy schronu kościoła w nawiasach galerii kształcie, które są najbardziej wyraziste podkreślenie poziomo w skład struktury luzem. Ośmiokątny wierzchołek centralnej ramki również podkreśla poziomy charakter kompozycji. \n\n
+Dzwonnica została zbudowana w XVIII w., Jest najczęstszą różnorodność huculskiej drewnianej dzwonnicy „chetverik w chetverik”. Pierwszy poziom to czworobok zrębowy, drugi to galeria z arkadami otwartymi, zwieńczona niskim namiotem. \n\n
+Podobnie jak kościół, dzwonnica jest podkreślona poziomymi proporcjami, co ułatwia umieszczenie wokół niej delikatnego adamaszku na nawiasach klamrowych. Pomnik jest jednym z najbardziej zaawansowanych zespołów huculskiej architektury ludowej. \n\n
+Źródło: http://www.rtic.if.ua</string>
+    <string name="cerkvmyk">Budynek został zbudowany w latach 1873-1875, a następnie w północnych obrzeżach miasta jako dom modlitwy luterańskiego społeczności Bahinsberh niemieckiej kolonii (założony w 1818) Kołomyi. Budynek z cegły, pokryty ocynkowanym blistrem, zbudowany na zebranych funduszach społeczności kolonijnej i prywatnych darowizn. \n\n
+Dom został konsekrowany i otwarty 25 października 1875 roku. Ta wspólnota religijna i przynależności, podczas gdy inne protestanckie kolonie niemieckie miasta Slavtsi (Slavica) Avhustdorf, Konstantinovka, Mikulsdorf, Neudorf i Bredthaym. W 1890 r. Parafia liczyła 1000 dusz. \n\n
+W styczniu 1940 r. Wszyscy koloniści wyjechali do Niemiec. Po wojnie w czasach radzieckich w domu modlitwy w roku 20 był magazyn lnu z przedsiębiorstwa "Zagotzbitlion". Następnie struktura zakładu budowy maszyn Kolomyiasilmash. Od 1997 roku, po przebudowie, kościół św. Mikołaja jest cudotwórcą ukraińskiego Kościoła greckokatolickiego.</string>
+    <string name="synagoga_about">Świątynia społeczności żydowskiej na ulicy. Piekarnia została zbudowana w drugiej połowie XIX wieku.</string>
+    <string name="russobor">Katedra Mikołaja Wniebowzięcia NMP w mieście to stosunkowo nowy budynek. Budynek został wzniesiony niedawno - w 1997 roku. Świątynia należy do Patriarchatu Moskiewskiego, który jest otwarty do zwiedzania w ciągu dnia.</string>
+    <string name="baptysty">Kościół ewangelików-baptystów znajduje się w Kołomyi pod adresem: Hetman Ivan Mazepa Street, 93.</string>
+
+    <string name="mon1">Park kamiennych rzeźb w pobliżu słynnego i jedynego na całym świecie muzeum pisanek wielkanocnych. \n\n
+Autorem projektu jest Oksana Ostrovska. Rzeźby zostały stworzone przez siedmiu artystów z różnych regionów Ukrainy: Lwów, Zaporoże, Kamieniec Podolski, Iwano-Frankiwsk i Kołomyję.\n\n
+W parku można zobaczyć następujące rzeźby: Darius Aleshhkin "Kura Chubutura", Solomiya Gorobyuk "Matka przeznaczenia", Serhij Zholud "Narodziny", Sergey Klappetur "Melodia nadziei", Gordian Starukh "Neosluchniki", Roman Zakharchuk "Początek", Anton Lubi "The Guardian of Traditions".</string>
+    <string name="mon2">Otwarte w dniu 27 sierpnia 2012 r. Rzeźbiarzami pomnika są: Wasyl Andruszko (Kołomyja) i Wasyl Gurmak (Lwów), architekt projektu - Oleg Prits (Kołomyja).\n\n
+
+Prawie trzy metrowy pomnik odlany jest w brązie we Lwowie "PicArt". Zgodnie z projektem planowano zorganizować nowo wyremontowany plac wokół pomnika. Niestety, i do tego czasu można zaobserwować brak granitowych płyt w chodniku - praca do końca nie została zakończona.</string>
+    <string name="mon3">Zostało otwarte 18 sierpnia 1991 r. Podczas obchodów 750. rocznicy pierwszej pisemnej wzmianki o Kołomyi. Autorem jest rzeźbiarz Witalij Rozhik.\n\n
+
+Bandera pomnik w Kolomna - replika pomnika, zainstalowany w jego rodzinnej miejscowości - Bandera. Starówce Uhryniv Kałusz, Iwano-Frankowskiego, Jego niezidentyfikowane sabotażyści zniszczony (prawdopodobnie spetseluzhby byłego ZSRR) o świcie w dniu 10 lipca 1991 r.\n\n
+
+Materiał - sztuczny kamień lekki. Budowę pomnika wykonywane głównie działaczy demokratycznych stowarzyszeń i wolontariuszy w wypoczynku i czasu wolnego, a lokalizacja pomnika był strzeżony przez całą dobę aż do dnia otwarcia.\n\n
+
+Interesujący fakt: kupa ziemi spadła z grobu OUN Explorer w Monachium na postument.</string>
+    <string name="mon4">Otwarty 22 sierpnia 1993 r. W centrum miasta. Rzeźbiarze M. Posikira, V. Rimar, L. Yaremchuk i architekt B. Kamenschik. Materiał pomnika - brąz (ponad 600 kilogramów).\n\n
+
+Na otwarciu był Zastępca Ludu Ukrainy Wiaczesław Czornowił.</string>
+    <string name="mon5">Założony 20 września 1992 r. Na cześć 100-lecia pierwszej ukraińskiej klasy Gimnazjum Kołomyi.\n\n
+Popiersie zostało stworzone i zainstalowane na dobrowolnym wkładzie nauczycieli szkół średnich przez rzeźbiarzy Wołodymyr Dmitrievich Rymar i Galina Dmitrievna Rimar. Pomnik znajduje się na dziedzińcu gimnazjum M. Hrushevsky"'"ego przy ulicy Iwana Franki 19.</string>
+    <string name="mon6">Założony 14 października 1974 r., Naprzeciwko Kolomskiego Teatru Dramatycznego. Wcześniej, w 1970 r., Na tym samym placu otwarto kino o nazwisku Miroslav Irchan (obecnie supermarket).</string>
+    <string name="mon7">Otwarty 19 października 1997 r. (Rzeźbiarz V. Odrekhovsky). Na otwarciu był syn generała UPA R. Szuchewycza Yu Szuchiewicza. Zainstalowali pomnik w parku miejskim, którego nazwa pochodzi od imienia Cyryla Trilowskiego.</string>
+    <string name="mon8">Otwarty w 1952 roku. Autorzy biustu: E. Zindra, I. Bodnaruk, V. Peredya. Materiał biustu - cement i kamień.\n\n
+Pomnik został zastąpiony poprzednim (1945 r.), Wykonanym z gipsu, którego nieznane nieustannie zwalczano. Park, który ma popiersie jak jezioro obok niego, nazywa się Szewczenko.</string>
+    <string name="mon9">Otwarty 5 stycznia 2008 r. Prototypem pomnika stała się UPA Miroslav Simchich ("Kryvonys").\n\n
+Pomnik wysokości trzech metrów powstał z inicjatywy Bohatera Ukrainy, obecnie zmarłego Wasyla Tkachuka. Autorem pomnika był rzeźbiarz Roman Zakharchuk. Interesujący fakt: wcześniej był pomnik proletariuszy.</string>
+    <string name="mon10">Otwarty 20 sierpnia 2016 r. Inicjator instalacji - Valery Kovtun. Projekt został zaprojektowany przez Honorowego Artystę Ukrainy Miroslava Yasinsky"'"ego, ale rzeźbiarz Roman Zakharchuk i Mychajło Shkrabyuk ucieleśnili ten pomysł w kamieniu.\n\n
+Pomnik upamiętnia pierwszych kołomoskich wydawców braci Belousov, symbolizujących poszanowanie drukowanego słowa jako fundamentu cywilizacji. Otwarcie odbyło się w czasie obchodów 775-lecia Kołomyji.</string>
+    <string name="mon11">Założony w 1898 roku, rzeźbiarz S. Dachinsky. Znajduje się w parku imieniem. K. Trilovsky. 5 czerwca 1898 w centrum Kołomna uroczysty marsz Kołomyjski polskim, ukraińskim i Żydów z okazji 100. rocznicy urodzin wybitnego geniusz Mickiewicza narodu polskiego, a więc - w parku miejskim otwarcie jego pomnik.\n\n
+Podczas ceremonii z udziałem lokalnych władz polskich, goście z Czerniowiec, Stanisława, Tarnopol, Lwów i Śniatyniu, kilkosot polskich chłopów Tsenyavy i Wielkiej Kamenka, teraz rejonowe Kolomiyskogo i pracowników z myshynskoyi Kovalivka kopalniach.</string>
+    <string name="mon12">Pomnik ofiar tragedii w Czarnobylu powstał w 2002 roku. Publiczna organizacja inwalidów Kołomyja "Unia Czarnobyla Ukrainy" sama ustanowiła pomnik poległych w walce z zanieczyszczeniem promieniowaniem, jako przypomnienie niezliczonych porysowanych i zaginionych losów.</string>
+    <string name="mon13">Pamiątkowy kompleks pamięci żołnierzy Ukrainy poległych w Afganistanie.\n\n
+Otwarty 2 listopada 2003 r. Przez Ligę Weteranów w Afganistanie w Kołomyi.</string>
+    <string name="mon14">Pomnik żołnierzy Armii Radzieckiej, którzy zginęli podczas II wojny światowej (1941-1945) podczas wyzwolenia miasta, został zbudowany w 1954 roku. Odbudowę przeprowadzono w 1986 r. (Plac Geroeva), architekta O. Mikhanko.\n\n
+Teraz plac, na którym znajduje się pomnik, nazywany jest Obszarem Żalu.</string>
+    <string name="mon15">Założona w 1991 roku, przed obchodami 750. rocznicy pierwszej pisemnej wzmianki o Kołomyi (autor - Ilko Koval z Snyatin).\n\n
+        Znak znajduje się w przybliżeniu w tym samym miejscu, w którym 28 maja 1914 r. Odbyło się uroczyste otwarcie pomnika Kobzarowa i gdzie, zaraz po wybuchu pierwszej wojny światowej, rosyjscy żołnierze zdemontowali popiersie Szewczenki.</string>
+    <string name="mon16">Pomnik ofiar faszyzmu, zbudowany z żelbetu w 1967 roku. Pomnik ma kształt prostokąta. Wysokość 2 metry, szerokość 2 metry, długość 0,60 metra.\n\n
+Po prawej stronie wizerunek kobiety w smutku, po lewej, napis:\n\n
+"Przechodzień, przestań! Świętujcie miliony hitlerowców zastrzelonych w mieście Kołomyja przez 25 000 obywateli radzieckich. Faszyzm nie powinien się powtarzać. 1967. "</string>
+    <string name="mon17">Otwarty 29 września 2013 r.\n\n
+Andrij Fedczuk jest ukraińskim bokserem i laureatem igrzysk olimpijskich. Czczony mistrz sportu Ukrainy na boksie. Wybrał brązowy medal na Olimpiadzie w Sydney w pierwszym wadze ciężkiej. Honorowy obywatel miasta Kołomyja (pośmiertnie).</string>
+    <string name="mon18">Popiersie I. P. Pavlov znajduje się na dziedzińcu szpitala w Kołomyi.\n\n
+Iwan Pietrowicz Pawłow (14 września (26), wrzesień 1849, Ryazan, 27 lutego 1936 r., Leningrad) - fizjolog, twórca nauki o wyższej aktywności nerwowej i pomysłach dotyczących procesów regulacji trawienia; założyciel największej rosyjskiej szkoły fizjologicznej; Laureat Nagrody Nobla z dziedziny fizjologii i medycyny w 1904 r. "Za pracę nad fizjologią trawienia".</string>
+    <string name="mon19">Zainstalowany na Boulevard of Lesia Ukrainka w pobliżu Fabryki Fabryki.\n\n
+Materiał - beton, cokół 1,2 metra, figura - 3 metry wysokości.</string>
+    <string name="mon20">Otwarty w dniu 19 sierpnia 2016 r., W 775 rocznicę pierwszej pisemnej wzmianki o Kołomyi. Autorem jest miejscowy artysta i rzeźbiarz Oleg Loburak.\n\n
+The Cat-Violinist znajduje się w centrum parku im. Cyrila Trilovsky"'"ego. Pomnik przedstawia kota w huculskim potoku, który gra na skrzypcach. A na pasku ma magiczny przycisk.</string>
+    <string name="mon21">Pomnik, który służył jako ozdoba parku Kolomyi od czasów sowieckich. Jest teraz w rozpaczliwym stanie.</string>
+
+</resources>
