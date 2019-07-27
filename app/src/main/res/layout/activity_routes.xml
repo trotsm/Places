@@ -56,7 +56,7 @@
             android:layout_marginBottom="16dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/buttontwo"
-            android:onClick="Memorials"
+            android:onClick="createMemorialsRoute"
             android:text="@string/btn_routes"
             android:textColor="@color/colorPrimaryDark" />
 
@@ -103,7 +103,7 @@
             android:layout_marginBottom="16dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/buttontwo"
-            android:onClick="Churches"
+            android:onClick="createChurchesRoute"
             android:text="@string/btn_routes"
             android:textColor="@color/colorPrimaryDark"  />
 
@@ -137,7 +137,7 @@
             android:layout_marginBottom="24dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/buttontwo"
-            android:onClick="Museums"
+            android:onClick="createMuseumsRoute"
             android:text="@string/btn_routes"
             android:textColor="@color/colorPrimaryDark"  />
 

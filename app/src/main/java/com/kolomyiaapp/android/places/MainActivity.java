@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {
 
     MediaPlayer mPlayer;
-    private SliderLayout mDemoSlider;
+    private SliderLayout mainScreenSlider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,52 +30,39 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //play mp3
+        // play mp3
         mPlayer = MediaPlayer.create(this, R.raw.kolomyia);
-
+        // set title
         getSupportActionBar().setTitle(R.string.app_name);
-        // getSupportActionBar().setIcon(getDrawable(R.drawable.ic_action_logo));
+        // slider on main screen
+        mainScreenSlider = (SliderLayout) findViewById(R.id.slider);
+        // create image array
+        ArrayList<Integer> sliderImages = new ArrayList<>();
+        // add images to slider
+        sliderImages.add(R.drawable.museum_pysanka);
+        sliderImages.add(R.drawable.arch_ratusha1);
+        sliderImages.add(R.drawable.monument_fedchyk2);
+        sliderImages.add(R.drawable.arch_soborupc1);
+        sliderImages.add(R.drawable.monumtnt_simpysanok2);
+        sliderImages.add(R.drawable.arch_yosafata);
+        sliderImages.add(R.drawable.monument_bandera);
+        sliderImages.add(R.drawable.popukar_fomtanbazar);
+        sliderImages.add(R.drawable.popular_miskeozero);
 
-//        FadingTextView fadingTextView = (FadingTextView) findViewById(R.id.text);
-//        fadingTextView.setTimeout(FadingTextView.SECONDS, 2);
-
-        //slider
-
-        mDemoSlider = (SliderLayout)findViewById(R.id.slider);
-
-        ArrayList<Integer> file_maps = new ArrayList<>();
-        file_maps.add(R.drawable.museum_pysanka);
-        file_maps.add(R.drawable.arch_ratusha1);
-        file_maps.add(R.drawable.monument_fedchyk2);
-        file_maps.add(R.drawable.arch_soborupc1);
-        file_maps.add(R.drawable.monumtnt_simpysanok2);
-        file_maps.add(R.drawable.arch_yosafata);
-        file_maps.add(R.drawable.monument_bandera);
-        file_maps.add(R.drawable.popukar_fomtanbazar);
-        file_maps.add(R.drawable.popular_miskeozero);
-
-
-
-
-        for(int name : file_maps){
+        for (int name : sliderImages) {
             DefaultSliderView defaultSliderView = new DefaultSliderView(this);
             // initialize a SliderLayout
             defaultSliderView
-//                    .description(name)
                     .image(name)
                     .setScaleType(BaseSliderView.ScaleType.CenterCrop)
                     .setOnSliderClickListener(this);
-
-
-            mDemoSlider.addSlider(defaultSliderView);
+            mainScreenSlider.addSlider(defaultSliderView);
         }
-        mDemoSlider.setPresetTransformer(SliderLayout.Transformer.Accordion);
-        mDemoSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
-        mDemoSlider.setDuration(6000);
-        mDemoSlider.addOnPageChangeListener(this);
-
-        // end or slider
-
+        mainScreenSlider.setPresetTransformer(SliderLayout.Transformer.Accordion);
+        mainScreenSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
+        mainScreenSlider.setDuration(6000);
+        mainScreenSlider.addOnPageChangeListener(this);
+        // end of slider code
     }
 
     @Override
@@ -85,57 +72,62 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
         return true;
     }
 
+    /**
+     * allow back and up/home button
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * open tabs of lists on Location
+     */
     public void ListBTN(View view) {
         Intent intent = new Intent(MainActivity.this, PlacesList.class);
         startActivity(intent);
     }
 
+    /**
+     * open routes on Routes
+     */
     public void MapGoogle(View view) {
-//        Uri webpage = Uri.parse("https://www.google.com/maps/dir/48.5242568,25.045635/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%9F%D0%B8%D1%81%D0%B0%D0%BD%D0%BA%D0%B0,+%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+%D0%92'%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D0%B0+%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B2%D0%BE%D0%BB%D0%B0,+%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B8%D1%8F,+%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%93%D1%83%D1%86%D1%83%D0%BB%D1%8C%D1%89%D0%B8%D0%BD%D0%B8+%D1%96+%D0%9F%D0%BE%D0%BA%D1%83%D1%82%D1%82%D1%8F,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B8%D1%8F,+%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/%D0%97%D0%B0%D0%BB%D1%96%D0%B7%D0%BD%D0%B8%D1%87%D0%BD%D0%B8%D0%B9+%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB+%D0%BC.+%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B8%D1%8F,+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0+%D0%9F%D1%80%D0%B8%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B8%D1%8F,+%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+78200/48.5242568,25.045635/@48.5297267,25.0313645,14z/am=t/data=!3m1!4b1!4m24!4m23!1m1!4e1!1m5!1m1!1s0x4736d285800292ad:0x890607c5962ed2e7!2m2!1d25.0391091!2d48.5284027!1m5!1m1!1s0x4736d28f9f70de83:0xd89cff65ea4dee7d!2m2!1d25.0376651!2d48.5287725!1m5!1m1!1s0x4736cd67b6cb58f3:0x2f8117793254900e!2m2!1d25.0600831!2d48.53443!1m1!4e1!3e2/");
-//        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
-//        startActivity(intent);
-
         Intent intent = new Intent(MainActivity.this, Routes.class);
         startActivity(intent);
-
     }
 
-    public void About(MenuItem item) {
-        Intent intentAbout = new Intent(MainActivity.this, About_App.class);
+    /**
+     * startAboutClass App
+     */
+    public void startAboutClass(MenuItem item) {
+        Intent intentAbout = new Intent(MainActivity.this, AboutApp.class);
         startActivity(intentAbout);
     }
 
-    public void Rate(MenuItem item) {
-
-        Uri webpage = Uri.parse("https://play.google.com/store/apps/details?id=com.kolomyiaapp.android.places");
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+    /**
+     * startRateClass App
+     */
+    public void startRateClass(MenuItem item) {
+        Uri webPage = Uri.parse("https://play.google.com/store/apps/details?id=com.kolomyiaapp.android.places");
+        Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
         startActivity(intent);
-
     }
 
-    public void Play(View view) {
-        ImageView button = (ImageView) findViewById(R.id.main_logo);
+    /**
+     * play music when pressed on logo
+     */
+    public void playMusicOnLogoClick(View view) {
+        ImageView logo = (ImageView) findViewById(R.id.main_logo);
         if (mPlayer.isPlaying()) {
             mPlayer.pause();
-            button.setImageResource(R.drawable.logo_main);
+            logo.setImageResource(R.drawable.logo_main);
         } else {
             mPlayer.start();
-            button.setImageResource(R.drawable.logo_main_stop);
+            logo.setImageResource(R.drawable.logo_main_stop);
         }
     }
 

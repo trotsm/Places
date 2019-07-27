@@ -21,45 +21,41 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public static final String EXTRA_IMAGE = "com.example.android.kolomyia.IMAGE";
     public static final String EXTRA_SLIDER = "com.example.android.kolomyia.SLIDER";
 
-
     Context mContext;
-    List<Item> mData;
+    List<Item> tabsLists;
 
-    public RecyclerViewAdapter(Context mContext, List<Item> mData) {
+    public RecyclerViewAdapter(Context mContext, List<Item> tabsLists) {
         this.mContext = mContext;
-        this.mData = mData;
+        this.tabsLists = tabsLists;
     }
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
-        View v;
-        v = LayoutInflater.from(mContext).inflate(R.layout.item, parent, false);
-        MyViewHolder vHolder = new MyViewHolder(v);
+        View view;
+        view = LayoutInflater.from(mContext).inflate(R.layout.item, parent, false);
+        MyViewHolder vHolder = new MyViewHolder(view);
         return vHolder;
     }
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
-
-
-        holder.tv_name.setText(mData.get(position).getName());
-        holder.tv_description.setText(mData.get(position).getDescription());
-        holder.tv_coordinates.setText(mData.get(position).getCoordinates());
-        Glide.with(mContext).load(mData.get(position).getPhoto()).asBitmap().into(holder.img);
-
+        holder.listName.setText(tabsLists.get(position).getName());
+        holder.listDescription.setText(tabsLists.get(position).getDescription());
+        holder.ListCoordinates.setText(tabsLists.get(position).getCoordinates());
+        Glide.with(mContext).load(tabsLists.get(position).getPhoto()).asBitmap().into(holder.listImage);
+        // send data from tab list to DetailActivity
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Context context = view.getContext();
                 Intent intent = new Intent(context, DetailActivity.class);//open DetailActivity
-                String name = holder.tv_name.getText().toString(); // get name of item
-                String description = holder.tv_description.getText().toString(); // get description of item
-                String coordinates = holder.tv_coordinates.getText().toString(); // get coordinates of item
+                String name = holder.listName.getText().toString(); // get name of item
+                String description = holder.listDescription.getText().toString(); // get description of item
+                String coordinates = holder.ListCoordinates.getText().toString(); // get coordinates of item
 
                 Bundle bundle = new Bundle();
-                bundle.putInt(EXTRA_IMAGE, mData.get(holder.getAdapterPosition()).getPhoto());
-                bundle.putIntArray(EXTRA_SLIDER, mData.get(holder.getAdapterPosition()).getIMGslider());
+                bundle.putInt(EXTRA_IMAGE, tabsLists.get(holder.getAdapterPosition()).getPhoto());
+                bundle.putIntArray(EXTRA_SLIDER, tabsLists.get(holder.getAdapterPosition()).getIMGSlider());
                 intent.putExtras(bundle);
 
                 intent.putExtra(EXTRA_NAME, name); // send name to DetailActivity
@@ -68,29 +64,25 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 context.startActivity(intent);
             }
         });
-
     }
 
     @Override
     public int getItemCount() {
-        return mData.size();
+        return tabsLists.size();
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
-
-        private TextView tv_name;
-        private TextView tv_description;
-        private TextView tv_coordinates;
-        private ImageView img;
-
+        private TextView listName;
+        private TextView listDescription;
+        private TextView ListCoordinates;
+        private ImageView listImage;
 
         public MyViewHolder(View itemView) {
             super(itemView);
-
-            tv_name = (TextView) itemView.findViewById(R.id.name_fragment_blank);
-            tv_description = (TextView) itemView.findViewById(R.id.description_fragment_blank);
-            tv_coordinates = (TextView) itemView.findViewById(R.id.coordinates_fragment_blank);
-            img = (ImageView) itemView.findViewById(R.id.img_fragment_blank);
+            listName = (TextView) itemView.findViewById(R.id.name_fragment_blank);
+            listDescription = (TextView) itemView.findViewById(R.id.description_fragment_blank);
+            ListCoordinates = (TextView) itemView.findViewById(R.id.coordinates_fragment_blank);
+            listImage = (ImageView) itemView.findViewById(R.id.img_fragment_blank);
         }
     }
-    }
+}

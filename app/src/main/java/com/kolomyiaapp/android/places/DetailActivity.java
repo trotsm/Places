@@ -26,14 +26,13 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class DetailActivity extends AppCompatActivity implements BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {
-    ImageView img_detail;
-    TextView name_detail;
-    TextView description_detail;
-    ImageButton coordinates_deteil;
-    private SliderLayout mDemoSlider;
-    TextToSpeech tts;
-    ImageButton ttsButton;
-
+    ImageView detailImage;
+    TextView detailName;
+    TextView detailDescription;
+    ImageButton detailCoordinates;
+    private SliderLayout detailSlider;
+    TextToSpeech TTS;
+    ImageButton TTSButton;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -41,88 +40,73 @@ public class DetailActivity extends AppCompatActivity implements BaseSliderView.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        img_detail = (ImageView) findViewById(R.id.img_detail_activity);
-        name_detail = (TextView) findViewById(R.id.name_detail_activity);
-        description_detail = (TextView) findViewById(R.id.description_detail_activity);
-        coordinates_deteil = (ImageButton) findViewById(R.id.coordinates_detail_activity);
-        mDemoSlider = (SliderLayout) findViewById(R.id.slider);
+        detailImage = (ImageView) findViewById(R.id.img_detail_activity);
+        detailName = (TextView) findViewById(R.id.name_detail_activity);
+        detailDescription = (TextView) findViewById(R.id.description_detail_activity);
+        detailCoordinates = (ImageButton) findViewById(R.id.coordinates_detail_activity);
+        detailSlider = (SliderLayout) findViewById(R.id.slider);
 
-        // Get the Intent that started this activity and extract the string
+        // Get the Intent that starts this activity and extracts the string
         Intent intent = getIntent();
         String name = intent.getStringExtra(RecyclerViewAdapter.EXTRA_NAME);
         String description = intent.getStringExtra(RecyclerViewAdapter.EXTRA_DESCRIPTION);
         final String coordinates = intent.getStringExtra(RecyclerViewAdapter.EXTRA_COORDINATES);
-        // get Image
+        // get image
         Bundle extras = getIntent().getExtras();
-        int [] image = extras.getIntArray(RecyclerViewAdapter.EXTRA_SLIDER);
+        int[] image = extras.getIntArray(RecyclerViewAdapter.EXTRA_SLIDER);
         // Capture the layout's TextView and set the string as its text
-        name_detail.setText(name);
-        description_detail.setText(description);
+        detailName.setText(name);
+        detailDescription.setText(description);
+        // set images slider
         ArrayList<Integer> listImages = new ArrayList<>();
         for (int i = 0; i < image.length; i++) {
             listImages.add(image[i]);
-            Glide.with(this).load(listImages.get(i)).asBitmap().into(img_detail);
-
+            Glide.with(this).load(listImages.get(i)).asBitmap().into(detailImage);
         }
-
-        for(int img : listImages){
+        for (int img : listImages) {
             DefaultSliderView defaultSliderView = new DefaultSliderView(this);
             // initialize a SliderLayout
             defaultSliderView
                     .image(img)
                     .setScaleType(BaseSliderView.ScaleType.CenterCrop)
                     .setOnSliderClickListener(this);
-
-
-            mDemoSlider.addSlider(defaultSliderView);
+            detailSlider.addSlider(defaultSliderView);
         }
-        mDemoSlider.setPresetTransformer(SliderLayout.Transformer.Accordion);
-        mDemoSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
-        mDemoSlider.setDuration(4000);
-        mDemoSlider.addOnPageChangeListener(this);
-
-
-        if (getSupportActionBar()!=null){
+        detailSlider.setPresetTransformer(SliderLayout.Transformer.Accordion);
+        detailSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
+        detailSlider.setDuration(4000);
+        detailSlider.addOnPageChangeListener(this);
+        // back(home) button
+        if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayShowHomeEnabled(true);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle(name);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                //set logo
                 getSupportActionBar().setIcon(getDrawable(R.drawable.ic_action_logo));
             }
         }
-
-        // ініціюємо іміджбатон.
-        ImageButton imageButton = (ImageButton)findViewById(R.id.coordinates_detail_activity);
-        imageButton.setOnClickListener(new View.OnClickListener() {
+        // button to show google map
+        ImageButton showMapButton = (ImageButton) findViewById(R.id.coordinates_detail_activity);
+        showMapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-// Create a Uri from an intent string. Use the result to create an Intent.
+                // Create a Uri from an intent string. Use the result to create an Intent.
                 String uri = String.format(Locale.ENGLISH, "https://maps.google.com/maps?daddr=%s", coordinates);
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
                 startActivity(i);
-//                Uri gmmIntentUri = Uri.parse(coordinates);
-//                // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
-//                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-//// Make the Intent explicit by setting the Google Maps package
-//                mapIntent.setPackage("com.google.android.apps.maps");
-//
-//// Attempt to start an activity that can handle the Intent
-//                startActivity(mapIntent);
             }
         });
 
-
-
-
-        ttsButton = (ImageButton) findViewById(R.id.readtext);
-        tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
+        TTSButton = (ImageButton) findViewById(R.id.readtext);
+        // Text to Speech button
+        TTS = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
                 if (status == TextToSpeech.SUCCESS) {
-                    tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
+                    TTS.setOnUtteranceProgressListener(new UtteranceProgressListener() {
                         @Override
                         public void onStart(String utteranceId) {
-
                         }
 
                         @Override
@@ -131,7 +115,7 @@ public class DetailActivity extends AppCompatActivity implements BaseSliderView.
                                 @Override
                                 public void run() {
                                     // Do something on UI thread
-                                    speak();
+                                    startTextToSpeechOnClick();
                                 }
                             });
                         }
@@ -141,77 +125,75 @@ public class DetailActivity extends AppCompatActivity implements BaseSliderView.
                             Log.e("TAG", "error on " + utteranceId);
                         }
                     });
-
-
-                    int result = tts.setLanguage(Locale.getDefault());
-
+                    // set language to TTS
+                    int result = TTS.setLanguage(Locale.getDefault());
                     if (result == TextToSpeech.LANG_MISSING_DATA
                             || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                         Log.e("TTS", "Language is not supported");
                     } else {
-                        ttsButton.setEnabled(true);
+                        TTSButton.setEnabled(true);
                     }
-
                 } else {
                     Log.e("TTS", "Initialization Failed");
                 }
             }
         });
-        speak();
+        startTextToSpeechOnClick();
     }
 
-    public void speak(){
+    /**
+     * Plays TextToSpeech when click button
+     */
+    public void startTextToSpeechOnClick() {
+        TTSButton.setTag(1);
+        TTSButton.setImageResource(R.mipmap.ic_play_text);
 
-        ttsButton.setTag(1);
-        ttsButton.setImageResource(R.mipmap.ic_play_text);
-
-        ttsButton.setOnClickListener(new View.OnClickListener() {
+        TTSButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final int status =(Integer) v.getTag();
-                if(tts.isSpeaking()){
-                    if (tts != null) {
-                        tts.stop(); }
-                    ttsButton.setImageResource(R.mipmap.ic_play_text);
+                final int status = (Integer) v.getTag();
+                if (TTS.isSpeaking()) {
+                    if (TTS != null) {
+                        TTS.stop();
+                    }
+                    TTSButton.setImageResource(R.mipmap.ic_play_text);
                     v.setTag(1); //pause
-                }
-                else {
-                    if(status == 1) {
-                        String words = description_detail.getText().toString();
-                        tts.speak(words, TextToSpeech.QUEUE_FLUSH, null);
-                        ttsButton.setImageResource(R.mipmap.ic_stop_text);
+                } else {
+                    if (status == 1) {
+                        String words = detailDescription.getText().toString();
+                        TTS.speak(words, TextToSpeech.QUEUE_FLUSH, null);
+                        TTSButton.setImageResource(R.mipmap.ic_stop_text);
                         v.setTag(0); //stop
                     }
-
                 }
             }
         });
-
     }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-
-        if(tts != null){
-            tts.shutdown();
+        if (TTS != null) {
+            TTS.shutdown();
         }
     }
 
-
     @Override
-    protected void onStop()
-    {
+    protected void onStop() {
         super.onStop();
 
-        if(tts != null){
-            tts.stop();
+        if (TTS != null) {
+            TTS.stop();
         }
-        speak();
+        startTextToSpeechOnClick();
     }
 
+    /**
+     * allow back and up/home button
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId()==android.R.id.home)
+        if (item.getItemId() == android.R.id.home)
             this.finish();
         return super.onOptionsItemSelected(item);
     }
@@ -242,16 +224,21 @@ public class DetailActivity extends AppCompatActivity implements BaseSliderView.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-    public void About(MenuItem item) {
-        Intent intentAbout = new Intent(DetailActivity.this, About_App.class);
+
+    /**
+     * startAboutClass App
+     */
+    public void startAboutClass(MenuItem item) {
+        Intent intentAbout = new Intent(DetailActivity.this, AboutApp.class);
         startActivity(intentAbout);
     }
 
-    public void Rate(MenuItem item) {
-
-        Uri webpage = Uri.parse("https://play.google.com/store/apps/details?id=com.kolomyiaapp.android.places");
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
-        startActivity(intent);
-
+    /**
+     * startRateClass App
+     */
+    public void startRateClass(MenuItem item) {
+        Uri webPage = Uri.parse("https://play.google.com/store/apps/details?id=com.kolomyiaapp.android.places");
+        Intent intentRate = new Intent(Intent.ACTION_VIEW, webPage);
+        startActivity(intentRate);
     }
 }

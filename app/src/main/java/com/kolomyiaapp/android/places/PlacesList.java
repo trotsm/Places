@@ -22,15 +22,13 @@ public class PlacesList extends AppCompatActivity {
         tabsPager tabsPager = new tabsPager(getSupportFragmentManager());
 
         //add fragments
-        tabsPager.AddFragment(new Fragment_Popular(), getString(R.string.popular));
-        tabsPager.AddFragment(new Fragment_Monument(),getString(R.string.monuments));
-        tabsPager.AddFragment(new Fragment_Architecture(),getString(R.string.architecture));
-        tabsPager.AddFragment(new Fragment_Religion(),getString(R.string.religion));
-        tabsPager.AddFragment(new Fragment_Museum(),getString(R.string.museums));
-
+        tabsPager.addFragment(new FragmentPopular(), getString(R.string.popular));
+        tabsPager.addFragment(new FragmentMonument(), getString(R.string.monuments));
+        tabsPager.addFragment(new FragmentArchitecture(), getString(R.string.architecture));
+        tabsPager.addFragment(new FragmentReligion(), getString(R.string.religion));
+        tabsPager.addFragment(new FragmentMuseum(), getString(R.string.museums));
 
         viewPager.setOffscreenPageLimit(tabsPager.getCount() - 1); // download all fragments at the same time once it is created
-
 
         viewPager.setAdapter(tabsPager);
         tabLayout.setupWithViewPager(viewPager);
@@ -42,7 +40,6 @@ public class PlacesList extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getSupportActionBar().setIcon(getDrawable(R.drawable.ic_action_logo));
         }
-
     }
 
     @Override
@@ -52,7 +49,9 @@ public class PlacesList extends AppCompatActivity {
         return true;
     }
 
-
+    /**
+     * allow back and up/home button
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -61,18 +60,22 @@ public class PlacesList extends AppCompatActivity {
             this.finish();
         return super.onOptionsItemSelected(item);
     }
-    public void About(MenuItem item) {
-        Intent intentAbout = new Intent(PlacesList.this, About_App.class);
+
+    /**
+     * startAboutClass App
+     */
+    public void startAboutClass(MenuItem item) {
+        Intent intentAbout = new Intent(PlacesList.this, AboutApp.class);
         startActivity(intentAbout);
     }
 
-
-    public void Rate(MenuItem item) {
-
-        Uri webpage = Uri.parse("https://play.google.com/store/apps/details?id=com.kolomyiaapp.android.places");
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+    /**
+     * startRateClass App
+     */
+    public void startRateClass(MenuItem item) {
+        Uri webPage = Uri.parse("https://play.google.com/store/apps/details?id=com.kolomyiaapp.android.places");
+        Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
         startActivity(intent);
-
     }
 }
 

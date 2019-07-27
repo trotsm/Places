@@ -5,17 +5,18 @@ public class Item {
     private String Description;
     private int Photo;
     private String Coordinates;
-    private int [] IMGslider;
+    private int[] IMGSlider;
 
-    public Item(String name, String description, String coordinates, int photo, int [] slider) {
+    public Item(String name, String description, String coordinates, int photo, int[] slider) {
         Name = name;
         Description = description;
         Photo = photo;
         Coordinates = coordinates;
-        IMGslider = slider;
+        IMGSlider = slider;
     }
 
-    public Item() {  }
+    public Item() {
+    }
 
     //Getter
     public String getName() {
@@ -34,10 +35,11 @@ public class Item {
         return Photo;
     }
 
-    public int[] getIMGslider() { return IMGslider; }
+    public int[] getIMGSlider() {
+        return IMGSlider;
+    }
 
     //Setter
-
     public void setName(String name) {
         Name = name;
     }
@@ -54,5 +56,7 @@ public class Item {
         Photo = photo;
     }
 
-    public void setIMGslider(int[] IMGslider) { this.IMGslider = IMGslider; }
+    public void setIMGSlider(int[] IMGSlider) {
+        this.IMGSlider = IMGSlider;
+    }
 }

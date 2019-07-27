@@ -16,13 +16,13 @@
         android:orderInCategory="99"
         android:title="@string/rate_app"
         app:showAsAction="never"
-        android:onClick="Rate"/>
+        android:onClick="startRateClass"/>
 
     <item
         android:id="@+id/action_about"
         android:orderInCategory="100"
         android:title="@string/action_about"
         app:showAsAction="never"
-        android:onClick="About"/>
+        android:onClick="startAboutClass"/>
 
 </menu>

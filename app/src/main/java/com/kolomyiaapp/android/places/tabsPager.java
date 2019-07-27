@@ -17,11 +17,13 @@ public class tabsPager extends FragmentPagerAdapter {
     public tabsPager(FragmentManager fm) {
         super(fm);
     }
+
     //getItem is where will be initialized the fragments for Android TabLayout.
     @Override
     public Fragment getItem(int position) {
         return lstFragment.get(position);
     }
+
     // getCount will return the number of tabs that will appear in Android TabLayout.
     @Override
     public int getCount() {
@@ -34,9 +36,8 @@ public class tabsPager extends FragmentPagerAdapter {
         return lstTitles.get(position);
     }
 
-    public void AddFragment(Fragment fragment, String title){
+    public void addFragment(Fragment fragment, String title) {
         lstFragment.add(fragment);
         lstTitles.add(title);
     }
-
 }

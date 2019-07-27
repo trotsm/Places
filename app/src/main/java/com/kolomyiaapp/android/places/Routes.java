@@ -13,7 +13,6 @@ public class Routes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_routes);
-
         // add back button
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -21,6 +20,9 @@ public class Routes extends AppCompatActivity {
         getSupportActionBar().setIcon(getDrawable(R.drawable.ic_action_logo));
     }
 
+    /**
+     * allow back and up/home button
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -30,21 +32,30 @@ public class Routes extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void Memorials(View view) {
-        Uri webpage = Uri.parse("https://goo.gl/maps/eRyBZgbMKNA2");
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+    /**
+     * Memorials route
+     */
+    public void createMemorialsRoute(View view) {
+        Uri webPage = Uri.parse("https://goo.gl/maps/eRyBZgbMKNA2");
+        Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
         startActivity(intent);
     }
 
-    public void Churches(View view) {
-        Uri webpage = Uri.parse("https://tinyurl.com/yb9lassw");
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+    /**
+     * Churches route
+     */
+    public void createChurchesRoute(View view) {
+        Uri webPage = Uri.parse("https://tinyurl.com/yb9lassw");
+        Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
         startActivity(intent);
     }
 
-    public void Museums(View view) {
-        Uri webpage = Uri.parse("https://goo.gl/maps/ST3gvCrYdwu");
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+    /**
+     * Museum route
+     */
+    public void createMuseumsRoute(View view) {
+        Uri webPage = Uri.parse("https://goo.gl/maps/ST3gvCrYdwu");
+        Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
         startActivity(intent);
     }
 }
